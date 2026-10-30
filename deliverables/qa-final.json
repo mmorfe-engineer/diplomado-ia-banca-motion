@@ -1,0 +1,20 @@
+{
+  "status": "PASS_INTERNAL_REVIEW",
+  "completedAt": "2026-10-29T15:38:56.874874+00:00",
+  "technical": "qa-tecnico.json",
+  "visual": "qa-visual.json",
+  "typecheck": "PASS: npm run typecheck",
+  "institutionalAudit": "PASS: 22 components, human scenes documented",
+  "diffCheck": "PASS: git diff --check",
+  "durationSeconds": 531.9,
+  "verifiedFrames": 15957,
+  "reusedFrames": 11977,
+  "newlyRenderedFrames": 3980,
+  "preservedSegments": 32,
+  "originalVoices": "19/19 unchanged",
+  "pendingFrames": 0,
+  "technicalIssues": [],
+  "visualScope": "Inspección de 33 fotogramas del máster y seis fotogramas detallados del bloque 11–16; no visionado humano continuo de los 8:51,90.",
+  "videoSHA256": "0f9d610c65a5663a3ae0ab380c309fcf256339997ee4f6d4c5f6c07b1b7c9b19",
+  "deliveryReview": "Disponible para revisión de dirección; QA interno completo."
+}

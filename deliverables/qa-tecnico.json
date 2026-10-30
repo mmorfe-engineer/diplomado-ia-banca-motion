@@ -1,0 +1,274 @@
+{
+  "status": "TECHNICAL_PASS_VISUAL_PENDING",
+  "frames": 15957,
+  "duration": 531.9,
+  "resolution": "1920x1080",
+  "fps": 30,
+  "videoSHA256": "0f9d610c65a5663a3ae0ab380c309fcf256339997ee4f6d4c5f6c07b1b7c9b19",
+  "originalSources": "19/19 unchanged",
+  "recoveredSourceAndMediaHashes": "ALL UNCHANGED",
+  "videoFrames": "15957/15957 pixel-identical to reused/completed blocks",
+  "timestamps": "Continuous at 30 fps; audio mixed to exact sample counts per block",
+  "captionCues": 203,
+  "captions": "Original text and timing preserved with exact block offsets; none over credits",
+  "voiceMixCorrelations": {
+    "v1": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9901615822775092,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 24.010625,
+        "correlation": 0.995398347974809,
+        "offsetMilliseconds": 0.0
+      }
+    ],
+    "v2": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9937109228713795,
+        "offsetMilliseconds": -0.3333333333333333
+      },
+      {
+        "sourceStart": 20.170625,
+        "correlation": 0.9908503198499446,
+        "offsetMilliseconds": -0.3333333333333333
+      }
+    ],
+    "v3": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9908918570685649,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 21.189396,
+        "correlation": 0.9893525269320413,
+        "offsetMilliseconds": 0.0
+      }
+    ],
+    "v4": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9938259913509674,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 26.231021,
+        "correlation": 0.9821263580042097,
+        "offsetMilliseconds": 0.0
+      }
+    ],
+    "v5": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9950709626272709,
+        "offsetMilliseconds": -0.3333333333333333
+      },
+      {
+        "sourceStart": 25.525729,
+        "correlation": 0.9770570557426308,
+        "offsetMilliseconds": -0.3333333333333333
+      }
+    ],
+    "v6": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9909873388894945,
+        "offsetMilliseconds": 0.3125
+      },
+      {
+        "sourceStart": 26.38775,
+        "correlation": 0.9910509893026225,
+        "offsetMilliseconds": 0.3125
+      }
+    ],
+    "v7": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9895739167206379,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 26.570625,
+        "correlation": 0.9937358004832484,
+        "offsetMilliseconds": 0.0
+      }
+    ],
+    "v8": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9882325490357099,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 25.186125,
+        "correlation": 0.9953853977768161,
+        "offsetMilliseconds": 0.0
+      }
+    ],
+    "v9": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9936735434995094,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 24.637563,
+        "correlation": 0.9904408595100967,
+        "offsetMilliseconds": 0.0
+      }
+    ],
+    "v10": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9943915290995234,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 21.685729,
+        "correlation": 0.9949176805911374,
+        "offsetMilliseconds": 0.0
+      }
+    ],
+    "v11": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9902864095196101,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 26.962458,
+        "correlation": 0.9943329532217425,
+        "offsetMilliseconds": 0.0
+      }
+    ],
+    "v12": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9865253778593522,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 22.312667,
+        "correlation": 0.9910725477135719,
+        "offsetMilliseconds": 0.0
+      }
+    ],
+    "v13": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9955425408304451,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 19.282458,
+        "correlation": 0.9925378563343807,
+        "offsetMilliseconds": 0.0
+      }
+    ],
+    "v14": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.982425584082947,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 23.435917,
+        "correlation": 0.9926783700667754,
+        "offsetMilliseconds": 0.0
+      }
+    ],
+    "v15": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9893227439222766,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 23.82775,
+        "correlation": 0.9119214052005986,
+        "offsetMilliseconds": 0.020833333333333332,
+        "backgroundCompensation": {
+          "unchangedMix": {
+            "correlation": 0.9999557104671122,
+            "offsetMilliseconds": 0.0
+          },
+          "originalVoiceAfterKnownPadRemoval": {
+            "correlation": 0.9999547056485947,
+            "offsetMilliseconds": 0.0
+          }
+        }
+      }
+    ],
+    "v16": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9947222291974945,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 23.514292,
+        "correlation": 0.9898789007921779,
+        "offsetMilliseconds": 0.0
+      }
+    ],
+    "v17_18": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9653987521832716,
+        "offsetMilliseconds": -0.020833333333333332
+      },
+      {
+        "sourceStart": 14.8333333333,
+        "correlation": 0.991977361792687,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 29.130625000000002,
+        "correlation": 0.9932181208798092,
+        "offsetMilliseconds": 0.0
+      }
+    ],
+    "v19": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.985900857598872,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 21.999188,
+        "correlation": 0.9942050719170945,
+        "offsetMilliseconds": 0.0
+      }
+    ],
+    "v20": [
+      {
+        "sourceStart": 1,
+        "correlation": 0.9939915205414835,
+        "offsetMilliseconds": 0.0
+      },
+      {
+        "sourceStart": 2.564083,
+        "correlation": 0.9897871136738958,
+        "offsetMilliseconds": 0.0
+      }
+    ]
+  },
+  "shared17_18": "One complete source, verified across visual split",
+  "credit21": {
+    "duration": 10,
+    "noNarration": "PASS: pad-only waveform match",
+    "musicCorrelation": {
+      "correlation": 0.9999651852672491,
+      "offsetMilliseconds": 0.0
+    }
+  },
+  "loudnessLUFS": -16.2,
+  "truePeakDBFS": -3.96,
+  "blackIntervals": [],
+  "unexpectedBlackIntervals": [],
+  "chapters": 21,
+  "completeDecode": "PASS"
+}

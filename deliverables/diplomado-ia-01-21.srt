@@ -1,0 +1,811 @@
+1
+00:00:00,600 --> 00:00:03,080
+Al hablar de transformación digital pensamos en
+
+2
+00:00:03,080 --> 00:00:05,480
+plataformas y automatización.
+
+3
+00:00:05,480 --> 00:00:08,380
+Sin embargo, el conocimiento más valioso está
+
+4
+00:00:08,380 --> 00:00:11,040
+en las personas que conocen las operaciones,
+
+5
+00:00:11,040 --> 00:00:13,760
+los clientes y sus responsabilidades.
+
+6
+00:00:13,760 --> 00:00:16,920
+Nuestra propuesta consiste en convertir ese conocimiento
+
+7
+00:00:16,920 --> 00:00:20,360
+en una capacidad organizada para identificar oportunidades
+
+8
+00:00:20,360 --> 00:00:22,760
+y formular proyectos de gestión de productos
+
+9
+00:00:22,760 --> 00:00:25,900
+de inteligencia artificial y profundizar los procesos
+
+10
+00:00:25,900 --> 00:00:27,940
+de digitalización bancaria.
+
+11
+00:00:29,133 --> 00:00:30,413
+Conoce a Isabel,
+
+12
+00:00:30,413 --> 00:00:32,593
+profesional de Seguridad Bancaria.
+
+13
+00:00:32,593 --> 00:00:34,013
+No es programadora.
+
+14
+00:00:34,013 --> 00:00:36,153
+Conoce los procedimientos de su unidad y
+
+15
+00:00:36,153 --> 00:00:38,693
+las necesidades que atiende diariamente.
+
+16
+00:00:38,713 --> 00:00:40,633
+Un día, reconoce que uno de esos
+
+17
+00:00:40,633 --> 00:00:44,153
+trámites podría gestionarse de forma más sencilla.
+
+18
+00:00:44,153 --> 00:00:46,153
+La oportunidad existe.
+
+19
+00:00:46,193 --> 00:00:48,313
+Lo que Isabel necesita es un método
+
+20
+00:00:48,313 --> 00:00:50,953
+para transformarla en una propuesta viable y
+
+21
+00:00:50,953 --> 00:00:52,633
+de impacto al banco.
+
+22
+00:00:54,133 --> 00:00:56,973
+Una buena idea puede surgir en segundos.
+
+23
+00:00:56,973 --> 00:01:00,053
+Convertirla en un proyecto requiere mucho más.
+
+24
+00:01:00,053 --> 00:01:02,913
+Es necesario definir qué se quiere resolver,
+
+25
+00:01:02,913 --> 00:01:04,753
+qué información se utilizaría,
+
+26
+00:01:04,753 --> 00:01:06,833
+si la solución es viable y cuáles
+
+27
+00:01:06,833 --> 00:01:08,373
+serían sus riesgos.
+
+28
+00:01:08,373 --> 00:01:10,333
+¿Y quién puede autorizarla?
+
+29
+00:01:10,333 --> 00:01:13,133
+Precisamente en esa transición de la intuición
+
+30
+00:01:13,133 --> 00:01:16,253
+operativa a la formulación responsable aparece una
+
+31
+00:01:16,253 --> 00:01:18,513
+nueva competencia profesional.
+
+32
+00:01:19,833 --> 00:01:21,733
+Lo mismo ocurre con matices,
+
+33
+00:01:21,733 --> 00:01:23,793
+en otras áreas del banco.
+
+34
+00:01:23,793 --> 00:01:26,713
+Negocios conoce las necesidades del cliente.
+
+35
+00:01:26,713 --> 00:01:29,393
+Crédito aporta el análisis financiero y las
+
+36
+00:01:29,393 --> 00:01:31,293
+condiciones del financiamiento.
+
+37
+00:01:31,293 --> 00:01:34,033
+Operaciones domina la ejecución y el control
+
+38
+00:01:34,033 --> 00:01:35,513
+de las transacciones.
+
+39
+00:01:35,513 --> 00:01:38,453
+Cada área observa oportunidades diferentes.
+
+40
+00:01:38,573 --> 00:01:41,533
+La transformación gana alcance cuando esos conocimientos
+
+41
+00:01:41,533 --> 00:01:44,413
+pueden expresarse mediante un lenguaje común,
+
+42
+00:01:44,413 --> 00:01:47,353
+sin confundir atribuciones y respetando los controles
+
+43
+00:01:47,353 --> 00:01:49,153
+de seguridad de la información.
+
+44
+00:01:50,566 --> 00:01:53,066
+Por eso proponemos el Diplomado en Inteligencia
+
+45
+00:01:53,066 --> 00:01:55,426
+Artificial aplicada a la banca.
+
+46
+00:01:55,426 --> 00:01:58,346
+No busca convertir participantes en programadores,
+
+47
+00:01:58,346 --> 00:02:00,666
+ni permitir despliegues independientes.
+
+48
+00:02:00,666 --> 00:02:03,106
+Es formar embajadores digitales,
+
+49
+00:02:03,106 --> 00:02:05,886
+profesionales que comprendan las posibilidades y los
+
+50
+00:02:05,886 --> 00:02:08,146
+límites de la Inteligencia Artificial en el
+
+51
+00:02:08,146 --> 00:02:09,886
+sector financiero nacional.
+
+52
+00:02:09,886 --> 00:02:12,506
+Reconozcan oportunidades en sus áreas y sepan
+
+53
+00:02:12,506 --> 00:02:15,066
+formular iniciativas para su evaluación.
+
+54
+00:02:15,066 --> 00:02:17,606
+El programa contempla cohortes de cuarenta o
+
+55
+00:02:17,606 --> 00:02:19,226
+más participantes.
+
+56
+00:02:20,600 --> 00:02:23,760
+El diseño académico tiene cuatro principios.
+
+57
+00:02:23,760 --> 00:02:27,040
+Primero, acceso para perfiles con distinto conocimiento
+
+58
+00:02:27,040 --> 00:02:31,220
+tecnológico. Segundo, aplicaciones vinculadas con la realidad
+
+59
+00:02:31,220 --> 00:02:32,760
+de sus funciones.
+
+60
+00:02:32,800 --> 00:02:35,520
+Tercero, desarrollo de un perfil capaz de
+
+61
+00:02:35,520 --> 00:02:38,240
+dialogar con especialistas y proveedores.
+
+62
+00:02:38,240 --> 00:02:41,860
+Y cuarto, orientación a proyectos factibles.
+
+63
+00:02:41,960 --> 00:02:44,180
+Así, la formación no termina en la
+
+64
+00:02:44,180 --> 00:02:45,760
+comprensión de conceptos.
+
+65
+00:02:45,760 --> 00:02:48,540
+Exige que el participante demuestre qué puede
+
+66
+00:02:48,540 --> 00:02:50,320
+hacer con lo aprendido.
+
+67
+00:02:51,800 --> 00:02:53,440
+Para ejecutar este modelo,
+
+68
+00:02:53,440 --> 00:02:56,200
+articulamos una alianza de tres actores.
+
+69
+00:02:56,200 --> 00:03:00,780
+PSICOSERVICIOS aporta consultoría multidisciplinaria y acompañamiento.
+
+70
+00:03:00,780 --> 00:03:02,940
+La Escuela Nacional de Administración y Hacienda
+
+71
+00:03:02,940 --> 00:03:06,540
+Pública, IUT, aporta el componente académico.
+
+72
+00:03:06,540 --> 00:03:08,600
+Y el banco es protagonista.
+
+73
+00:03:08,600 --> 00:03:10,120
+Define sus prioridades,
+
+74
+00:03:10,120 --> 00:03:12,760
+selecciona el talento y conserva la dirección
+
+75
+00:03:12,760 --> 00:03:14,180
+de sus decisiones.
+
+76
+00:03:14,180 --> 00:03:16,540
+No proponemos transformar al banco desde afuera.
+
+77
+00:03:16,540 --> 00:03:19,760
+Proponemos fortalecer las capacidades de quienes lo
+
+78
+00:03:19,760 --> 00:03:21,720
+conocen desde adentro.
+
+79
+00:03:22,900 --> 00:03:25,920
+El recorrido comienza con una base compartida.
+
+80
+00:03:25,920 --> 00:03:28,360
+El primer módulo aborda gobernanza,
+
+81
+00:03:28,360 --> 00:03:32,220
+ética, privacidad, riesgos y gestión del cambio.
+
+82
+00:03:32,220 --> 00:03:34,960
+El segundo desarrolla los fundamentos de inteligencia
+
+83
+00:03:34,960 --> 00:03:37,080
+artificial y cultura de datos,
+
+84
+00:03:37,080 --> 00:03:40,800
+con experiencias significativas nacionales e internacionales,
+
+85
+00:03:40,800 --> 00:03:43,080
+limitaciones y regulaciones.
+
+86
+00:03:43,120 --> 00:03:44,900
+Antes de hablar de proyectos,
+
+87
+00:03:44,900 --> 00:03:47,220
+todos deben comprender tanto el potencial de
+
+88
+00:03:47,220 --> 00:03:50,180
+la tecnología como la responsabilidad que implica
+
+89
+00:03:50,180 --> 00:03:51,500
+utilizarla.
+
+90
+00:03:52,600 --> 00:03:54,140
+A partir de esa base,
+
+91
+00:03:54,140 --> 00:03:56,780
+los participantes avanzan por rutas vinculadas con
+
+92
+00:03:56,780 --> 00:04:00,180
+sus responsabilidades. Riesgo y cumplimiento,
+
+93
+00:04:00,180 --> 00:04:02,300
+planificación y mejora continua,
+
+94
+00:04:02,300 --> 00:04:03,980
+productos y servicios,
+
+95
+00:04:03,980 --> 00:04:05,780
+operaciones y finanzas,
+
+96
+00:04:05,780 --> 00:04:08,660
+y tecnología y seguridad de la información.
+
+97
+00:04:08,860 --> 00:04:11,260
+La segmentación adapta las aplicaciones a las
+
+98
+00:04:11,260 --> 00:04:13,180
+necesidades de cada grupo.
+
+99
+00:04:13,180 --> 00:04:14,960
+No buscamos enseñar lo mismo de la
+
+100
+00:04:14,960 --> 00:04:16,660
+misma manera a todos,
+
+101
+00:04:16,660 --> 00:04:20,500
+buscamos una formación transversal con pertinencia funcional.
+
+102
+00:04:21,767 --> 00:04:24,367
+La evaluación refuerza esa intención.
+
+103
+00:04:24,367 --> 00:04:27,647
+El veinte por ciento corresponde a la comprensión continua,
+
+104
+00:04:27,647 --> 00:04:31,147
+otro veinte por ciento a las actividades y tutorías,
+
+105
+00:04:31,147 --> 00:04:34,187
+y el sesenta por ciento restante al proyecto integrador
+
+106
+00:04:34,187 --> 00:04:35,487
+y su defensa.
+
+107
+00:04:35,487 --> 00:04:38,367
+Así, formular propuestas ocupa el centro de
+
+108
+00:04:38,367 --> 00:04:41,747
+la evaluación. Aprobar un proyecto demuestra aprendizaje
+
+109
+00:04:41,747 --> 00:04:44,807
+y criterio. No significa que su implementación
+
+110
+00:04:44,807 --> 00:04:46,747
+haya sido autorizada.
+
+111
+00:04:48,267 --> 00:04:50,607
+El primer ciclo combina veinte horas de
+
+112
+00:04:50,607 --> 00:04:52,967
+inmersión presencial en la Escuela Nacional de
+
+113
+00:04:52,967 --> 00:04:55,027
+Administración y Hacienda Pública,
+
+114
+00:04:55,027 --> 00:04:57,547
+sesenta horas de formación y acompañamiento en
+
+115
+00:04:57,547 --> 00:05:00,207
+Moodle y cuarenta horas dedicadas al proyecto
+
+116
+00:05:00,207 --> 00:05:04,467
+integrador. Son ciento veinte horas académicas previstas.
+
+117
+00:05:04,467 --> 00:05:06,207
+Se comienza fuera de la rutina de
+
+118
+00:05:06,207 --> 00:05:09,027
+oficina y se continúa con flexibilidad.
+
+119
+00:05:09,027 --> 00:05:11,307
+Los entornos de enseñanza son externos a
+
+120
+00:05:11,307 --> 00:05:12,767
+la plataforma bancaria,
+
+121
+00:05:12,767 --> 00:05:14,827
+bajo condiciones de seguridad de la información
+
+122
+00:05:14,827 --> 00:05:18,487
+y logística que deben definirse previamente.
+
+123
+00:05:19,734 --> 00:05:22,014
+En el segundo ciclo el aprendizaje se
+
+124
+00:05:22,014 --> 00:05:24,754
+convierte en una iniciativa concreta.
+
+125
+00:05:24,754 --> 00:05:27,634
+Cada participante identifica una oportunidad,
+
+126
+00:05:27,634 --> 00:05:29,874
+define el problema y sus requisitos,
+
+127
+00:05:29,874 --> 00:05:31,514
+Estudia la factibilidad.
+
+128
+00:05:31,514 --> 00:05:34,274
+considera riesgos y controles y desarrolla una
+
+129
+00:05:34,274 --> 00:05:37,214
+propuesta o prototipo de alcance académico.
+
+130
+00:05:37,214 --> 00:05:40,774
+Finalmente, defiende la iniciativa ante especialistas,
+
+131
+00:05:40,774 --> 00:05:44,014
+argumentando su pertinencia y las condiciones necesarias
+
+132
+00:05:44,014 --> 00:05:45,454
+para avanzar.
+
+133
+00:05:46,567 --> 00:05:48,087
+Volvamos con Isabel.
+
+134
+00:05:48,087 --> 00:05:50,727
+Imaginemos que un trabajador necesita reponer su
+
+135
+00:05:50,727 --> 00:05:52,447
+carnet de identificación.
+
+136
+00:05:52,447 --> 00:05:54,287
+Debe conocer los requisitos,
+
+137
+00:05:54,287 --> 00:05:56,727
+comunicar el motivo y seguir un procedimiento
+
+138
+00:05:56,727 --> 00:05:59,007
+con las validaciones correspondientes.
+
+139
+00:05:59,007 --> 00:06:01,247
+La pregunta que surge es sencilla.
+
+140
+00:06:01,247 --> 00:06:03,787
+¿Podría el personal recibir una orientación más
+
+141
+00:06:03,787 --> 00:06:06,307
+ágil sin comprometer los controles de seguridad
+
+142
+00:06:06,307 --> 00:06:08,967
+bancaria y seguridad de la información?
+
+143
+00:06:10,367 --> 00:06:12,947
+Isabel propone estudiar un chatbot que informe
+
+144
+00:06:12,947 --> 00:06:14,367
+sobre los requisitos,
+
+145
+00:06:14,367 --> 00:06:17,167
+oriente el registro de solicitudes y facilite
+
+146
+00:06:17,167 --> 00:06:19,667
+su seguimiento. El diplomado le enseña a
+
+147
+00:06:19,667 --> 00:06:21,887
+mirar más allá de la herramienta.
+
+148
+00:06:21,887 --> 00:06:25,247
+¿Qué experiencias significativas existen que puedan optimizar
+
+149
+00:06:25,247 --> 00:06:27,927
+y maximizar el impacto de nuestro trabajo
+
+150
+00:06:27,927 --> 00:06:29,627
+en beneficio del banco?
+
+151
+00:06:29,627 --> 00:06:31,367
+¿Cómo podemos automatizar,
+
+152
+00:06:31,367 --> 00:06:34,007
+digitalizar nuestras tareas dentro de un marco
+
+153
+00:06:34,007 --> 00:06:35,887
+de respeto a la normativa del sector
+
+154
+00:06:35,887 --> 00:06:37,147
+financiero?
+
+155
+00:06:38,334 --> 00:06:39,734
+En esta simulación,
+
+156
+00:06:39,734 --> 00:06:41,954
+un trabajador solicita la reposición de su
+
+157
+00:06:41,954 --> 00:06:44,514
+carnet, el asistente le presenta las opciones
+
+158
+00:06:44,514 --> 00:06:47,254
+y explica cómo iniciar el trámite.
+
+159
+00:06:47,254 --> 00:06:48,954
+Es un ejemplo sintético,
+
+160
+00:06:48,954 --> 00:06:51,154
+sin conexión con sistemas bancarios.
+
+161
+00:06:51,154 --> 00:06:54,694
+Las decisiones y validaciones siguen siendo humanas.
+
+162
+00:06:54,694 --> 00:06:57,674
+No estamos mostrando una aplicación ya implementada,
+
+163
+00:06:57,674 --> 00:06:59,774
+estamos mostrando el cambio de paradigma de
+
+164
+00:06:59,774 --> 00:07:01,474
+Isabel frente a los retos de su
+
+165
+00:07:01,474 --> 00:07:04,254
+entorno laboral y su capacidad de fundamentar
+
+166
+00:07:04,254 --> 00:07:05,474
+su propuesta.
+
+167
+00:07:06,667 --> 00:07:09,667
+Aquí está el verdadero resultado educativo.
+
+168
+00:07:09,667 --> 00:07:10,787
+No es el chatbot,
+
+169
+00:07:10,787 --> 00:07:12,567
+ni una pantalla atractiva.
+
+170
+00:07:12,567 --> 00:07:14,747
+Es Isabel, que ahora puede presentar una
+
+171
+00:07:14,747 --> 00:07:16,247
+ficha con el problema,
+
+172
+00:07:16,247 --> 00:07:17,967
+la hipótesis de solución,
+
+173
+00:07:17,967 --> 00:07:21,007
+los requisitos, las condiciones de factibilidad y
+
+174
+00:07:21,007 --> 00:07:23,407
+los riesgos de privacidad y seguridad.
+
+175
+00:07:23,407 --> 00:07:25,627
+Explica la mejora esperada y los controles
+
+176
+00:07:25,627 --> 00:07:28,467
+pendientes. Ha convertido una observación de su
+
+177
+00:07:28,467 --> 00:07:31,407
+trabajo en una propuesta que otros especialistas
+
+178
+00:07:31,407 --> 00:07:33,447
+pueden examinar con rigor.
+
+179
+00:07:35,000 --> 00:07:37,100
+Este diplomado ya fue aplicado en una
+
+180
+00:07:37,100 --> 00:07:40,040
+institución financiera venezolana que se encuentra dentro
+
+181
+00:07:40,040 --> 00:07:42,320
+de los 10 primeros lugares del ranking
+
+182
+00:07:42,320 --> 00:07:45,700
+nacional bancario. En esa experiencia participaron más
+
+183
+00:07:45,700 --> 00:07:49,000
+de sesenta profesionales que desarrollaron y defendieron
+
+184
+00:07:49,000 --> 00:07:52,800
+veintiún proyectos factibles y cuya iniciativa promovió
+
+185
+00:07:52,800 --> 00:07:55,300
+un banco de proyectos de digitalización y
+
+186
+00:07:55,300 --> 00:07:57,540
+varios de los proyectos factibles se encuentran
+
+187
+00:07:57,540 --> 00:07:59,280
+actualmente en revisión.
+
+188
+00:07:59,280 --> 00:08:01,960
+Hablamos de resultados formativos y de propuestas
+
+189
+00:08:01,960 --> 00:08:05,060
+organizadas y un talento humano motivado a
+
+190
+00:08:05,060 --> 00:08:07,460
+la digitalización de sus procesos.
+
+191
+00:08:08,633 --> 00:08:10,413
+La meta es que cada área del
+
+192
+00:08:10,413 --> 00:08:13,433
+banco cuente con profesionales capaces de reconocer
+
+193
+00:08:13,433 --> 00:08:17,013
+oportunidades, formularlas con criterio y contribuir a
+
+194
+00:08:17,013 --> 00:08:19,853
+las instancias de digitalización y gobernanza de
+
+195
+00:08:19,853 --> 00:08:23,453
+inteligencia artificial. Los embajadores no sustituyen las
+
+196
+00:08:23,453 --> 00:08:25,373
+áreas técnicas ni de control.
+
+197
+00:08:25,373 --> 00:08:27,953
+Su función es aportar conocimiento del proceso
+
+198
+00:08:27,953 --> 00:08:30,153
+y propuestas bien estructuradas.
+
+199
+00:08:30,153 --> 00:08:32,853
+Este es el principal impacto de este
+
+200
+00:08:32,853 --> 00:08:34,033
+diplomado.
+
+201
+00:08:35,133 --> 00:08:37,993
+Porque la tecnología abre posibilidades,
+
+202
+00:08:37,993 --> 00:08:39,973
+pero es su gente la que transforma
+
+203
+00:08:39,973 --> 00:08:40,973
+el banco.

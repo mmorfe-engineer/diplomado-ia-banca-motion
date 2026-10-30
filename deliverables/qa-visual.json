@@ -1,0 +1,51 @@
+{
+  "status": "PASS_INTERNAL_VISUAL_REVIEW",
+  "method": "Inspección de 33 fotogramas del máster y seis fotogramas detallados del bloque 11–16; no visionado humano continuo de los 8:51,90.",
+  "scenesReviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "evidence": "qa-visual/fotogramas.json",
+  "contactSheets": [
+    "qa-visual/panorama-21-escenas.png",
+    "qa-visual/uniones-bloques.png"
+  ],
+  "checks": {
+    "institutionalIcons": "Instituciones y áreas con iconografía; personajes reservados a Isabel y casos humanos explícitos.",
+    "layout": "Sin recortes o colisiones persistentes en las muestras revisadas.",
+    "blockJoins": "Las cuatro uniones conservan las entradas y salidas aprobadas.",
+    "shared17_18": "Transición visual y subtítulo continuos en el corte de la grabación compartida.",
+    "credits21": "Créditos legibles, sin subtítulos ni locución; prisma vectorial animado y salida gradual."
+  },
+  "prismAnimation": {
+    "status": "PASS",
+    "comparisonTimes": [
+      522.5,
+      525.9
+    ],
+    "prismRegionHashes": [
+      "SHA256=6670054b88c853054a99ab39016c3fb97df0fad5a4bf220de6f607b3ee802fdc",
+      "SHA256=b791e05c050b3f62e051f4d3ecade5ddb83021af2a130be416e0f19396ada566"
+    ],
+    "evidence": "Vector prism draw-in and dispersion differ between entry and settled credit frame"
+  }
+}

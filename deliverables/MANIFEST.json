@@ -1,0 +1,989 @@
+[
+  {
+    "path": "src/Root.tsx",
+    "bytes": 414,
+    "sha256": "0bad18d73411646e9d112de8d61d56c447a8c7d1eebae76b9aedde6a143409b9",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/Video.tsx",
+    "bytes": 2652,
+    "sha256": "88bdcdb9c2cda1bce6b63c177f6fc27867e8c72fb542ac1c11dc30506711893c",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/fx/Captions.tsx",
+    "bytes": 2734,
+    "sha256": "00987223a78b4180394f5e8ad38c70a7f3c2e29b3b8e2d466a596b60c70be1be",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/fx/InstitutionalIcon.tsx",
+    "bytes": 791,
+    "sha256": "f57cd4dfc70c1e5c147bfac29f5612bf1c19bf586f72c405fd6220a9518cd27c",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/fx/index.tsx",
+    "bytes": 17350,
+    "sha256": "5ef38d7a579d0ff099bcc4e32bd915d9a09ecce60b4c757c2aadaea9107ab987",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/fx/team.tsx",
+    "bytes": 3432,
+    "sha256": "ee7eee11ed1533cb6ec72b124942d37508d85928981e9bbb89cfba45639f98bb",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/index.ts",
+    "bytes": 92,
+    "sha256": "b9900e8f2d9dd0508919db76ded7f60ef532157750339d786c3c395643fc6675",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/lib.ts",
+    "bytes": 1212,
+    "sha256": "6ba6c58ccc95d7bb250dbd1e48e20024cf388f31ec51b2c0a3de7ac2a7d61af3",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/locale.ts",
+    "bytes": 153,
+    "sha256": "9194099e801438b3019a415553168aa553a6dfe2e4fdf00e999aefe3957629c2",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/locales/diplomado/voices.json",
+    "bytes": 391,
+    "sha256": "5061ddaaf1211823ed506fef797eac7f70ab58b3b64f80d691eb5f4af7908e9c",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/locales/diplomado/words.json",
+    "bytes": 60634,
+    "sha256": "24db5d3e39fa22a1761b864f4b90a521f0374e9926f7196c48e8a346b98c14af",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/locales/diplomado.tsx",
+    "bytes": 1789,
+    "sha256": "ba219f6aeaf017fa232c45e4538a240f6379452ddc77476f54340f321bdb1a38",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/locales/en/scenes.json",
+    "bytes": 673,
+    "sha256": "26c76b1621b09028cc92e25a2fc91928f88d9c046506e990119f6edff24700c5",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/locales/en/voices.json",
+    "bytes": 139,
+    "sha256": "11332c8cdf431aa029cf46b64e659e7c648eb026705449ae462168e72a6dd5b0",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/locales/en/words.json",
+    "bytes": 16354,
+    "sha256": "4d3bcf902e7e95450d503eec36bf10312327ccc56d6771a7bc917ce4bcf07d49",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/locales/en.tsx",
+    "bytes": 10196,
+    "sha256": "2612fd75b9beadbc86fa3b0204012e5b0f3dbe02c2b5e2761be5eb2cd0bce47a",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/locales/es/scenes.json",
+    "bytes": 673,
+    "sha256": "829e97f1d301d569ff2f6bb526dd0f51cc3da075097ca370be270efcde1fd627",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/locales/es/voices.json",
+    "bytes": 138,
+    "sha256": "b57cda467cecee7ff38c4dbb2fff75a9b48cd07143836b4a8723a50741da20b2",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/locales/es/words.json",
+    "bytes": 14877,
+    "sha256": "a9e65df8101e84b6b8acbe3326a345789330e104fea5e88286b9b3ea0ac3ad6d",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/locales/es.tsx",
+    "bytes": 9661,
+    "sha256": "b98e8df43b7d27fe2ddb29d788555b4376f1040540fbce32de023c91af092a3b",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/scenes/S1.tsx",
+    "bytes": 5356,
+    "sha256": "05fc37ca42b047e7eeb6e0cfc0b2125cbf1d272507b8cabfeacd2e026c07f5fd",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/scenes/S2.tsx",
+    "bytes": 5265,
+    "sha256": "1c40d6d51d85dfdb89f565570728c3cc06625dd33df9a6b2e72877ae57959292",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/scenes/S3.tsx",
+    "bytes": 5169,
+    "sha256": "d50276fc3bf67e9fe84be13018ba22320c35c29443522a2598d627aed29f8178",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/scenes/S4.tsx",
+    "bytes": 4780,
+    "sha256": "e8c16f3aec8a6158ff1cc44a03d1959673519dd1a8e3543e735a123634507d01",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/scenes/S5.tsx",
+    "bytes": 5569,
+    "sha256": "884060e20bad933f2ea43da9916003783193b2c9c477c1d0388c60e1c789b273",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/scenes/S6.tsx",
+    "bytes": 4527,
+    "sha256": "a84ae82f487912a18c7f854462d47535f159ab8b5760a9bd8c20e18df6d197d5",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/scenes/S7.tsx",
+    "bytes": 6245,
+    "sha256": "c6df87d66bacdbb3de1e08b106839a83ba99922762f2e2b5dcefaa173f84cbef",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/scenes/S8.tsx",
+    "bytes": 5409,
+    "sha256": "ad5e16a6112c83aad3435cb96d82a144399ec14c061058ee784ed048095ac589",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/scenes/diplomado/Block07_10.tsx",
+    "bytes": 9101,
+    "sha256": "cf00e738d6f5504da25526a4f1db8d89bb9da0d280867e999041c9e38363ff0f",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/scenes/diplomado/Block11_16.tsx",
+    "bytes": 12196,
+    "sha256": "de48c2051196c7e773f0b97131769ab917a65c06e2408f2872fa07e13ad28f03",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/scenes/diplomado/Block17_21.tsx",
+    "bytes": 8335,
+    "sha256": "28fd11f270885eca2bc3c023dfbfdff4fb14c868b2f833705bf00f693d2a96bf",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/sync.ts",
+    "bytes": 1022,
+    "sha256": "a8b672144858233c3ce3de23d9a47d98f116fa653c9acd67e8216760f3aa632a",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/theme.ts",
+    "bytes": 1265,
+    "sha256": "86db719103b5acbdffd5414c857fda3f13f00c5ef0ad1543f9514bbde792d367",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/timeline.ts",
+    "bytes": 916,
+    "sha256": "1e9d0007f9be97a9a690c2da67abb7d5743de099242978c267ed20d6adef173a",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "src/ui/App.tsx",
+    "bytes": 18305,
+    "sha256": "60fff9ff4e967d873cba54188bb0b40c171d8c676f3c86f4a0ae57d6c8130326",
+    "purpose": "src",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/__pycache__/assemble_diplomado_final.cpython-314.pyc",
+    "bytes": 14167,
+    "sha256": "12c2e6a620b94f797426b90dade914af556a20f10630484ca127594d5aec2fd1",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/__pycache__/assemble_institutional.cpython-314.pyc",
+    "bytes": 8543,
+    "sha256": "7afe5aaf7f898182d6c5acaf8ea00db0b2e22f330eabe544794de864a00f3857",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/__pycache__/continue_diplomado.cpython-314.pyc",
+    "bytes": 5144,
+    "sha256": "2090a59e8f571a83a92ad4b5b339f2f753488a139418533b1a1c50d7ab81c929",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/__pycache__/diplomado_queue.cpython-314.pyc",
+    "bytes": 3605,
+    "sha256": "b89f40f23fda549eb99754acf4fcd42f80868d858c1329761d1bd138b17d4cc5",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/__pycache__/mix_diplomado_audio.cpython-314.pyc",
+    "bytes": 6504,
+    "sha256": "b38c11972e3e065d54160e3d9a95108ab19cbef99af08709bdd571d27c0a72e7",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/__pycache__/prepare_diplomado_audio.cpython-314.pyc",
+    "bytes": 2705,
+    "sha256": "ee8998dc92ca48d698a512daa5aa04220a98849789eda218ba1fb2a279f34b2f",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/__pycache__/qa_diplomado_continuation.cpython-314.pyc",
+    "bytes": 16402,
+    "sha256": "b73fe47efa1fe40f7f7448fe83cf87cd346c36d26de1795228aa78979e1de5cb",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/__pycache__/qa_diplomado_final.cpython-314.pyc",
+    "bytes": 18542,
+    "sha256": "e0863e6733abb95d446914d7d3cfff7d602a60a2251cfae1742a748fc9184f29",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/__pycache__/qa_diplomado_review.cpython-314.pyc",
+    "bytes": 12923,
+    "sha256": "4fc2abfa99605817b58c79ec06c1812a8c572a929f627bbd8f64c0e60f2205d1",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/__pycache__/qa_institutional.cpython-314.pyc",
+    "bytes": 16237,
+    "sha256": "ee7d2165c0fc7f6d4f4452a36134649c015df738af5d48e6a1e99b1992f3dd47",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/__pycache__/render_diplomado_blocks.cpython-314.pyc",
+    "bytes": 9924,
+    "sha256": "987aa6b2e29c9b24d3b11aabe0c8702d01434db169e618836cb62ad19f8d1571",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/assemble_diplomado_final.py",
+    "bytes": 6437,
+    "sha256": "f8d89f6f6117c39c1dfafe93d8516b6f3cda48e798c47f2d1c4eda6ded825d20",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/assemble_institutional.py",
+    "bytes": 4036,
+    "sha256": "68649db67e8f2b1a84580917518afaa3bd77aa46f9ad581b2223044cdea35086",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/audit_institutional.mjs",
+    "bytes": 1980,
+    "sha256": "8e671b4b1b60c41f406829086d587a508f8b7b2b68b9dfc8d7df9e2f9d3eca15",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/continue_diplomado.py",
+    "bytes": 3144,
+    "sha256": "352ada2f43827826e98536ca145dee78d8fe15d51c0351ee996e0575ceab8e5a",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/diplomado_queue.py",
+    "bytes": 1599,
+    "sha256": "60dec7acb2e7a0f0ad486c48eb23dd1eb59b7cfb687f30d6cf082d61e9bdf5dd",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/export_srt.mjs",
+    "bytes": 2203,
+    "sha256": "de14446959480c225d9aa3294a8e178cc937e3d04c01c8c11bb89029fa4cff1e",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/finish_diplomado.mjs",
+    "bytes": 3180,
+    "sha256": "377b007b9bf0d395061533dfe00ae7de99058690da204bb730da849d4517ca76",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/generate_sfx.sh",
+    "bytes": 2205,
+    "sha256": "401eac9f4fcfcd33e395382a452b293761bb4055cba7b050133db0d260633fb4",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/mix_diplomado_audio.py",
+    "bytes": 3326,
+    "sha256": "d3e2f5cbd3eb4161f2504a94b861816f7b9cebae6cb7347eb94f54ca1a6763ae",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/prepare_audio.py",
+    "bytes": 2231,
+    "sha256": "126484ca7d97f0138a033d32cf2cef8cdd06ce31f97c26407c0dfc4bd26dd4df",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/prepare_diplomado_audio.py",
+    "bytes": 1520,
+    "sha256": "ec2a15b09e105f6e1b8a1797f7d7f632fad1236d06cce3aff25a230e0bbbefed",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/qa_diplomado_continuation.py",
+    "bytes": 6839,
+    "sha256": "9ac8173899eaf8e12cb2fa336b4dbf2a20303cbe412fbd519ec91f21cee686a5",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/qa_diplomado_final.py",
+    "bytes": 8715,
+    "sha256": "4b63d16fb22416afbb89a723ea73ee4b4f1d19aefe682c046c8350e9e8326d80",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/qa_diplomado_review.py",
+    "bytes": 7423,
+    "sha256": "f31fa74c05bc69b41350aa8cb29033f074865a45eaf3673928c3bddd0c6e05dc",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/qa_institutional.py",
+    "bytes": 7298,
+    "sha256": "e2b91ade56834cee300fd4ca033b48644ca8c628f0b9d48c0e65d7ed5be33a21",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/render_diplomado_blocks.py",
+    "bytes": 6840,
+    "sha256": "bc4f5d68f563febb70e072105daa362c910e15225dbf736caa986a2eb002c635",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/render_institutional.mjs",
+    "bytes": 4067,
+    "sha256": "377dbb5e1a28e068563695881656bd764b623e87451809339fa23fed7ef4b454",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/thumbnails.mjs",
+    "bytes": 1078,
+    "sha256": "aafdaef6cf441d8aeb2535b18360b16371eb093c30333e1b6c86c8d8cbc38cc4",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "scripts/transcribe.py",
+    "bytes": 3998,
+    "sha256": "19b5666171454d664f586c2629d08cedfb0b9bc3483766009a3b02f79f3bbcaa",
+    "purpose": "scripts",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/sfx/boom.wav",
+    "bytes": 307278,
+    "sha256": "d61d77b0d9bce8c6b7801a9459d1a033557c36ba0c42f22b06100eeb08cf27f9",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/sfx/click.wav",
+    "bytes": 15438,
+    "sha256": "e57a38e176b04a4d5494ac40a0ae41c7c908dccaad772607b4280cef56416be1",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/sfx/ding.wav",
+    "bytes": 268878,
+    "sha256": "ae781531b5b0d8fb08ef38a929b6dc1595dc917d32616dcc685418319c617f01",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/sfx/key.wav",
+    "bytes": 6798,
+    "sha256": "8f3422172c75afdc389c266bad4bc6f55f5067ff97a7efb640aec024fbbc695a",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/sfx/pad.wav",
+    "bytes": 61574478,
+    "sha256": "d192ca1c62bf863f6422d219fa96b925ea3444c450b9631f876a8364fd1c51bc",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/sfx/pop.wav",
+    "bytes": 48078,
+    "sha256": "b24d2a46198ffab02f94dd0240efd06da0db212d50f45429ced00a7be1b104af",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/sfx/rise.wav",
+    "bytes": 153678,
+    "sha256": "b9003db9d404392c5037a899493b29baf336a5414daf7ad1c0eb6242bed68529",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/sfx/shimmer.wav",
+    "bytes": 445518,
+    "sha256": "66b65616ee0a7403af2e83dbbcbe1ad4653989bec5c650e83c6b772a87b9eec3",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/sfx/whoosh.wav",
+    "bytes": 172878,
+    "sha256": "4cde61c6fe885999e18973e1a9bdfa30cafa60bd1c3493d62f01c76616ca4a8d",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v1.wav",
+    "bytes": 2593098,
+    "sha256": "26ad078759b032e2f481e5f23f99b481263ff68c91ca8f92fe64d26f00ea0dc3",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v10.wav",
+    "bytes": 2369908,
+    "sha256": "027e793599e4e97d2358df4023007c4b83ffb113b37f3f21fa12bfe6d3318b57",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v11.wav",
+    "bytes": 2876474,
+    "sha256": "0f3070937a7661f578d1fe9b82da9713c02db03d9ac474bc7f18bf5453591b4d",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v12.wav",
+    "bytes": 2430094,
+    "sha256": "ad56ff4e1c56288713e43872ac96e9a6642f5e7377bc6c73956bfd16bacf9f07",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v13.wav",
+    "bytes": 2139194,
+    "sha256": "ea14c5eb284abfbe896ea37e440cb70a6fbcf4031a03260dbc2fce77edd5ab3a",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v14.wav",
+    "bytes": 2537926,
+    "sha256": "3203c3fde157c8985815d326acf42bd5f66e30f60b4bf7e758c01746939dffb5",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v15.wav",
+    "bytes": 2575542,
+    "sha256": "df0aad8c12abe73df665406b78d68e2eb645cac22429b215d6ac2c1a5503bcc2",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v16.wav",
+    "bytes": 2545450,
+    "sha256": "79dfaa2916f0b6347e63b9c2361a3760f2e45aa6b62dba3d29a63eadfb3e426e",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v17_18.wav",
+    "bytes": 3084618,
+    "sha256": "60b56be5b42397275a5882e11058aaedfa887274e38db7a3916047214167d9be",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v19.wav",
+    "bytes": 2400000,
+    "sha256": "c8216c25181c5b31ecdbfa96b1123d69084207d464186a7e7cbc0661da69c7f8",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v2.wav",
+    "bytes": 2224458,
+    "sha256": "84072c2802965329933b3100747efd089f4454a163c2be87d29447d3473ca515",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v20.wav",
+    "bytes": 534230,
+    "sha256": "bac40d7a2b8dec48ada6e1445b3e9b56179bf0a40aea2d9128b7ba396e8d9c2e",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v3.wav",
+    "bytes": 2322260,
+    "sha256": "af452bf6a8a0fccc28964ba8086ee5b3623a63618dcd11e12833e8792c410542",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v4.wav",
+    "bytes": 2806256,
+    "sha256": "89ed345a161f33064f5c32ca899211216a001d52fddabf52c000af6435a582fa",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v5.wav",
+    "bytes": 2738548,
+    "sha256": "f18134b04729bfb8747ff503845806cdb136229591f2539b5992f96897482491",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v6.wav",
+    "bytes": 2821302,
+    "sha256": "97c51e69303ac7869dc0e9249516781dff9b1b77ee8438c2d1484b91abac8726",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v7.wav",
+    "bytes": 2838858,
+    "sha256": "6d0cbc289a990f031e1342a65ae8faf9ff7890f8ad694335d2703bd3c9711b6e",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v8.wav",
+    "bytes": 2705946,
+    "sha256": "ee920b14efb53b28726beb34ef7cb89dc0ce11c5ed77678569245cf98b55a8b1",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/diplomado/v9.wav",
+    "bytes": 2653284,
+    "sha256": "ea694d0bbfce576f220615479dbda9d8b0f2bad66414fb8569bdc86d4969058e",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/es/v1.wav",
+    "bytes": 1763030,
+    "sha256": "c0e77bc1391694f583b2bef2496d8f667e8963f2cce84315d4a79af3220dab72",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/es/v2.wav",
+    "bytes": 2914090,
+    "sha256": "170b76ee3805edb663803ab79a0b2ce3efc572880608b6fc54989b1a4188bb94",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/es/v3.wav",
+    "bytes": 2552974,
+    "sha256": "ac8d927ee07c9625abede29a96000d7fd895cf6054986c6cc2dd4cf1369c3f05",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/es/v4.wav",
+    "bytes": 1502224,
+    "sha256": "8e83b742361da700fb2d643c715b64944b625efbce2e0a22394efb1a4d5f32dd",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/es/v5a.wav",
+    "bytes": 5148500,
+    "sha256": "b05bb24813730a83e3cd134190696d760afd67db18013d83ea06d6f00d584aaf",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/es/v5b.wav",
+    "bytes": 2400000,
+    "sha256": "b32240486e259b3d409fb0ea269c3a9cd861b4d3c1f6e41bd347e488aaad6b60",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/es/v6.wav",
+    "bytes": 4190538,
+    "sha256": "34e258213e228ff50ec1674e63bbc923f7148a610465912ea7b2223ca37e95c6",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/es/v7.wav",
+    "bytes": 2445140,
+    "sha256": "f3f25bbd58b39a4c278d880226faa22072f448e05922a2dc6631890bccec6e80",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "public/voice/es/v8.wav",
+    "bytes": 739866,
+    "sha256": "a255ff9f58bb9423fd0d3d54f41c0c672e47939893e83ff24eb28772227f88b6",
+    "purpose": "public",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/README.md",
+    "bytes": 660,
+    "sha256": "8da6f806ad1b21f2bfc5e505786b613454251074940f8db040f86251db562655",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/diplomado-manifest.json",
+    "bytes": 16235,
+    "sha256": "37d39d379f547f8d4bda106a7bd2cc1cbc25a8e8800a35f2d2c490efc708e385",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/en/v1.mp3",
+    "bytes": 328734,
+    "sha256": "0e968d6b6fab301ab8dd3507f9d314ffe24249345b19488116835a7bddc97123",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/en/v2.mp3",
+    "bytes": 497590,
+    "sha256": "7681396fe76069716273e05e7959a3aaecc336d7ccdcf705098a37e35e059839",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/en/v3.mp3",
+    "bytes": 631754,
+    "sha256": "5321fb76189c4d877ac3bd4999d9266353119abac023a4f8d8511085389b2b7e",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/en/v4.mp3",
+    "bytes": 313270,
+    "sha256": "1e88b42a73108a84df1d4f7c08ffe9cee7fad789930ad9e87d99a3d9b08e6eab",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/en/v5a.mp3",
+    "bytes": 895487,
+    "sha256": "d4ecd2952c0b172c29bfd701e7d4932d75fd80c52c7f9ea6913c490739f2311d",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/en/v5b.mp3",
+    "bytes": 392682,
+    "sha256": "3c7b74f3cb044381e1c482e5c95c0c24dafc0536ab542ffd5e02f4d4e20f418c",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/en/v6.mp3",
+    "bytes": 711167,
+    "sha256": "fca129580949088124d7c8f4f255127be3f8816c2a515a73ba4eca40bdf001b3",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/en/v7.mp3",
+    "bytes": 585779,
+    "sha256": "a98c5d8df8b07bb4a54746f6888da23204ad6678e50771279caab86ee7c95468",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/en/v8.mp3",
+    "bytes": 156953,
+    "sha256": "5b84df223043d6dcbd49f040151da832a4e94de12e1290767293b51744744579",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/es/v1.mp3",
+    "bytes": 310762,
+    "sha256": "ec5c0d728ef2a6296b1eb0c4069155f0edbedbae84153223400335955872b6d9",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/es/v2.mp3",
+    "bytes": 502605,
+    "sha256": "aa99eedf83b8f21e88c3fa7a0871434b8dbf7e54b9c170986313b7b24e73f9c3",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/es/v3.mp3",
+    "bytes": 442419,
+    "sha256": "3e67f49089ec66162200b0a40282b10e3603073d4ab407b851c8571b9a71576f",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/es/v4.mp3",
+    "bytes": 267294,
+    "sha256": "04213f3e9b018fcba71e6fad7969511e959ac8bbfcb3864cb370506a74f21525",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/es/v5a.mp3",
+    "bytes": 875007,
+    "sha256": "b9209171f53a0ef0e3400dc17608f256387213f6da3a60c8cc60e5bd467f2d13",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/es/v5b.mp3",
+    "bytes": 416923,
+    "sha256": "aaa72a9af88abf3ca248d1b1da0f698a68fb818adca1dd008e005b5b818a96c3",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/es/v6.mp3",
+    "bytes": 715346,
+    "sha256": "a7a1a71358b5a20c66c0d720e351a81edded5cc2168717c5b730ac7820c56fc2",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/es/v7.mp3",
+    "bytes": 424447,
+    "sha256": "c2cde089bc067921c61fb8f7ffd5ce1710b2b7dfecade11b7d645d0ca3a1fa8f",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/es/v8.mp3",
+    "bytes": 140234,
+    "sha256": "08dca3f8b438dc9bda26290cd88ad513c4a9981cbbfe7c0c25fcfed39aa280ae",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "inputs/voiceover/manifest.json",
+    "bytes": 2021,
+    "sha256": "a2ec2fffb2175edc3699cf8d18815e08c0c1998aa89c82325feddbd7ca8d916d",
+    "purpose": "inputs",
+    "approval": "project resource"
+  },
+  {
+    "path": "docs/media/hero.webp",
+    "bytes": 38506,
+    "sha256": "2cccc818f17d4a0d641ece8fab8678a4bdb31059cb6c772cfdbbf506a30bd68e",
+    "purpose": "docs/media",
+    "approval": "project resource"
+  },
+  {
+    "path": "docs/media/scene-01.webp",
+    "bytes": 56528,
+    "sha256": "7f8cc3ab72250f0750dfbbf8b5ed3d50c9ed6ebe01a7505e8d27a65a4b9c6c48",
+    "purpose": "docs/media",
+    "approval": "project resource"
+  },
+  {
+    "path": "docs/media/scene-02.webp",
+    "bytes": 46164,
+    "sha256": "f2df299c192925584a7c04925533badd8f5ae75c3b40269fec3f4e16e5199e3f",
+    "purpose": "docs/media",
+    "approval": "project resource"
+  },
+  {
+    "path": "docs/media/scene-03.webp",
+    "bytes": 46888,
+    "sha256": "b6b59021ddee26805207cb484c5b59f0b20b5e9d9b9c9afbad007cfbfd6afc99",
+    "purpose": "docs/media",
+    "approval": "project resource"
+  },
+  {
+    "path": "docs/media/scene-04.webp",
+    "bytes": 61904,
+    "sha256": "8402a147c1e9f8327022cf23cba40fab41dc8ca21cdd68b91b513c8c299ff429",
+    "purpose": "docs/media",
+    "approval": "project resource"
+  },
+  {
+    "path": "docs/media/scene-07.webp",
+    "bytes": 66696,
+    "sha256": "8137e905feb3f10c88af1dea501b6142afca198c01af97cc508c51f740fee7d2",
+    "purpose": "docs/media",
+    "approval": "project resource"
+  },
+  {
+    "path": "docs/media/scene-08.webp",
+    "bytes": 51552,
+    "sha256": "9d2444336c11c8c7e71de107c53e6893c7242c76024393cb528136ccf95d0813",
+    "purpose": "docs/media",
+    "approval": "project resource"
+  },
+  {
+    "path": "docs/media/scene-11.webp",
+    "bytes": 62672,
+    "sha256": "e1333fc222d306d459bfc344e282dfa6c008998f8197e9c0c941f53c00a241bc",
+    "purpose": "docs/media",
+    "approval": "project resource"
+  },
+  {
+    "path": "docs/media/scene-14.webp",
+    "bytes": 46286,
+    "sha256": "f9ff0e5e457888b409450152544cffc533b4385539b7a6ac2695ad626df15389",
+    "purpose": "docs/media",
+    "approval": "project resource"
+  },
+  {
+    "path": "docs/media/scene-17.webp",
+    "bytes": 65174,
+    "sha256": "2dd2c9591c500c4e63b42a275d039d5b7fb24700b69cfab6a269112054adb94b",
+    "purpose": "docs/media",
+    "approval": "project resource"
+  },
+  {
+    "path": "docs/media/scene-18.webp",
+    "bytes": 51654,
+    "sha256": "607dabb96945c3656ef14d89fd21563cfdf415aa5b756f2aafa8dc913e9463c3",
+    "purpose": "docs/media",
+    "approval": "project resource"
+  },
+  {
+    "path": "docs/media/scene-20.webp",
+    "bytes": 39436,
+    "sha256": "bac705c58c879026a721f6f83ca0777d4da129096abdb5b5f6ce0c1bcf6134ff",
+    "purpose": "docs/media",
+    "approval": "project resource"
+  },
+  {
+    "path": "docs/media/scene-21.webp",
+    "bytes": 38506,
+    "sha256": "2cccc818f17d4a0d641ece8fab8678a4bdb31059cb6c772cfdbbf506a30bd68e",
+    "purpose": "docs/media",
+    "approval": "project resource"
+  },
+  {
+    "path": "deliverables/diplomado-ia-01-21-final.mp4",
+    "bytes": 94359490,
+    "sha256": "0f9d610c65a5663a3ae0ab380c309fcf256339997ee4f6d4c5f6c07b1b7c9b19",
+    "purpose": "deliverables",
+    "approval": "master/QA approved"
+  },
+  {
+    "path": "deliverables/diplomado-ia-01-21.srt",
+    "bytes": 15089,
+    "sha256": "9e4ffc9feaf1747568d85fc7003c185578fe0caf74b113a9e8e726c05a8a6cda",
+    "purpose": "deliverables",
+    "approval": "master/QA approved"
+  },
+  {
+    "path": "deliverables/qa-final.json",
+    "bytes": 860,
+    "sha256": "d1d44b6cd82273b4681fee1591c2c6f6d9e4a0ff2cf10eb320d18c61da55c9b1",
+    "purpose": "deliverables",
+    "approval": "master/QA approved"
+  },
+  {
+    "path": "deliverables/qa-tecnico.json",
+    "bytes": 6665,
+    "sha256": "77864ac0a5de31fe035976c16b896bbd1074daeb3b5a85dcfa0d9614f5484664",
+    "purpose": "deliverables",
+    "approval": "master/QA approved"
+  },
+  {
+    "path": "deliverables/qa-visual.json",
+    "bytes": 1461,
+    "sha256": "890b8cae5f41b185d5cb64ec3dbe3a0ddb2425acef49aaaa3e2514d98025ccf0",
+    "purpose": "deliverables",
+    "approval": "master/QA approved"
+  }
+]
