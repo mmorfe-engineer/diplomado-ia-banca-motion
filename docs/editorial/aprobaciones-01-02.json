@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-28",
+  "authority": "Dirección audiovisual; mensaje de aprobación editorial definitiva",
+  "observations": [
+    {
+      "scene": "01",
+      "status": "RESUELTA Y APROBADA",
+      "previous": "formular proyectos de digitalización.",
+      "approved": "formular proyectos de gestión de productos de inteligencia artificial y profundizar los procesos de digitalización bancaria."
+    },
+    {
+      "scene": "02",
+      "status": "RESUELTA Y APROBADA",
+      "previous": "Pensemos en Isabel,",
+      "approved": "Conoce a Isabel,"
+    }
+  ],
+  "previousVersion": "docs/editorial/version-anterior-01-02/",
+  "approvedVideoSHA256": "1c63910b2a490d5cb1494561b695fd8392f1aced88ab8e150171f16db64ba2ba",
+  "action": "Actualización documental únicamente; sin cambios visuales ni nuevo render 01–02. Subtítulos existentes cotejados palabra por palabra con el guion actualizado."
+}

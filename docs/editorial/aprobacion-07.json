@@ -1,0 +1,9 @@
+{
+  "scene": "07",
+  "status": "RESUELTA Y APROBADA",
+  "authority": "Respuesta explícita del usuario en esta sesión: Aprobar la variante grabada",
+  "previous": "selecciona al talento",
+  "approved": "selecciona el talento",
+  "verification": "Dos transcripciones locales coincidentes; out/segunda-transcripcion-07.json",
+  "audio": "Original intacto"
+}

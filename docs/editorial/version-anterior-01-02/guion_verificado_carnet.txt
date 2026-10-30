@@ -1,0 +1,64 @@
+GUION DE LOCUCIÓN ·  · VERSIÓN 4 REVISADA
+Preparado para voz formal en español. Los encabezados NO se narran.
+
+
+
+
+
+LÁMINA 01
+Al hablar de transformación digital pensamos en plataformas y automatización. Sin embargo, el conocimiento más valioso está en las personas que conocen las operaciones, los clientes y sus responsabilidades. Nuestra propuesta consiste en convertir ese conocimiento en una capacidad organizada para identificar oportunidades y formular proyectos de digitalización.
+
+LÁMINA 02
+Pensemos en Isabel, profesional de Seguridad Bancaria. No es programadora. Conoce los procedimientos de su unidad y las necesidades que atiende diariamente. Un día reconoce que uno de esos trámites podría gestionarse de forma más sencilla. La oportunidad existe. Lo que Isabel necesita es un método para transformarla en una propuesta viable y de impacto al banco.
+
+LÁMINA 03
+Una buena idea puede surgir en segundos; convertirla en un proyecto requiere mucho más. Es necesario definir qué se quiere resolver, qué información se utilizaría, si la solución es viable y cuáles serían sus riesgos. Y quién puede autorizarla. Precisamente en esa transición, de la intuición operativa a la formulación responsable, aparece una nueva competencia profesional.
+
+LÁMINA 04
+Lo mismo ocurre, con matices, en otras áreas del banco. Negocios conoce las necesidades del cliente. Crédito aporta el análisis financiero y las condiciones del financiamiento. Operaciones domina la ejecución y el control de las transacciones. Cada área observa oportunidades diferentes. La transformación gana alcance cuando esos conocimientos pueden expresarse mediante un lenguaje común, sin confundir atribuciones y respetando los controles de seguridad de la información.
+
+LÁMINA 05
+Por eso proponemos el Diplomado en Inteligencia Artificial Aplicada a la Banca. No busca convertir participantes en programadores ni permitir despliegues independientes. Es formar embajadores digitales: profesionales que comprendan las posibilidades y los límites de la inteligencia artificial, en el sector financiero nacional, reconozcan oportunidades en sus áreas y sepan formular iniciativas para su evaluación. El programa contempla una primera cohorte de cuarenta o más participantes.
+
+LÁMINA 06
+El diseño académico tiene cuatro principios. Primero, acceso para perfiles con distinto conocimiento tecnológico. Segundo, aplicaciones vinculadas con la realidad de sus funciones. Tercero, desarrollo de un perfil capaz de dialogar con especialistas y proveedores. Y cuarto, orientación a proyectos factibles. Así, la formación no termina en la comprensión de conceptos: exige que el participante demuestre qué puede hacer con lo aprendido.
+
+LÁMINA 07
+Para ejecutar este modelo articulamos una alianza de tres actores. PSICOSERVICIOS aporta consultoría multidisciplinaria y acompañamiento. La Escuela Nacional de Administración y Hacienda Pública IUT aporta el componente académico. Y el banco es protagonista: define sus prioridades, selecciona al talento y conserva la dirección de sus decisiones. No proponemos transformar al banco desde afuera; proponemos fortalecer las capacidades de quienes lo conocen desde adentro.
+
+LÁMINA 08
+El recorrido comienza con una base compartida. El primer módulo aborda gobernanza, ética, privacidad, riesgos y gestión del cambio. El segundo desarrolla los fundamentos de inteligencia artificial y cultura de datos, con aplicaciones nacionales e internacionales, limitaciones y regulaciones. Antes de hablar de proyectos, todos deben comprender tanto el potencial de la tecnología como la responsabilidad que implica utilizarla.
+
+LÁMINA 09
+A partir de esa base, los participantes avanzan por rutas vinculadas con sus responsabilidades: Riesgo y Cumplimiento; Planificación y Mejora Continua, Productos y Servicios; Operaciones y Finanzas; y Tecnología y Seguridad de la información. La segmentación adapta las aplicaciones a las necesidades de cada grupo. No buscamos enseñar lo mismo de la misma manera a todos: buscamos una formación transversal con pertinencia funcional.
+
+LÁMINA 10
+La evaluación refuerza esa intención. El veinte por ciento corresponde a la comprensión continua; otro veinte por ciento, a las actividades y tutorías; y el sesenta por ciento restante, al proyecto integrador y su defensa. Así, formular propuestas ocupa el centro de la evaluación. Aprobar un proyecto demuestra aprendizaje y criterio; no significa que su implementación haya sido autorizada.
+
+LÁMINA 11
+El primer ciclo combina veinte horas de inmersión presencial en la Escuela Nacional de Administración y Hacienda Pública, sesenta horas de formación y acompañamiento en Moodle, y cuarenta horas dedicadas al proyecto integrador. Son ciento veinte horas académicas previstas. Se comienza fuera de la rutina de oficina y se continúa con flexibilidad. Los entornos de enseñanza son externos a la plataforma bancaria, bajo condiciones de  seguridad de la información y  logística que deben definirse previamente.
+
+LÁMINA 12
+En el segundo ciclo, el aprendizaje se convierte en una iniciativa concreta. Cada participante identifica una oportunidad, define el problema y sus requisitos, estudia la factibilidad, considera riesgos y controles, y desarrolla una propuesta o prototipo de alcance académico. Finalmente, defiende la iniciativa ante especialistas, argumentando su pertinencia y las condiciones necesarias para avanzar.
+
+LÁMINA 13
+Volvamos con  Isabel. Imaginemos que un trabajador necesita reponer su carnet de identificación. Debe conocer los requisitos, comunicar el motivo y seguir un procedimiento con las validaciones correspondientes.  La pregunta que surge es sencilla: ¿podría el personal recibir una orientación más ágil sin comprometer los controles de Seguridad Bancaria  y Seguridad de la Información?
+
+LÁMINA 14
+Isabel propone estudiar un Chat Bot que informe sobre los requisitos, oriente el registro de solicitudes y facilite su seguimiento. El diplomado le enseña a mirar más allá de la herramienta; que experiencias significativas existen que puedan optimizar y maximizar el impacto de nuestro trabajo en beneficio del banco, como podemos automatizar, digitalizar nuestras tareas dentro de un marco de respeto a la normativa del sector financiero.
+LÁMINA 15
+En esta simulación, un trabajador solicita la reposición de su carnet. El asistente le presenta las opciones y explica cómo iniciar el trámite. Es un ejemplo sintético, sin conexión con sistemas bancarios. Las decisiones y validaciones siguen siendo humanas. No estamos mostrando una aplicación ya implementada; estamos mostrando el  cambio de paradigma de  Isabel frente a los retos de su entorno laboral, y su capacidad de fundamentar su propuesta.
+
+LÁMINA 16
+Aquí está el verdadero resultado educativo. No es el chatbot, ni una pantalla atractiva. Es Isabel, que ahora puede presentar una ficha con el problema, la hipótesis de solución, los requisitos, las condiciones de factibilidad y los riesgos de privacidad y seguridad. Explica la mejora esperada y los controles pendientes. Ha convertido una observación de su trabajo en una propuesta que otros especialistas pueden examinar con rigor.
+
+LÁMINA 17-18
+ Este diplomado ya fue aplicado en  una institución  financiera  venezolana que se encuentra dentro de los 10 primeros lugares  del Ranking Nacional Bancario. En esa experiencia participaron mas de sesenta profesionales, que desarrollaron y defendieron veintiún proyectos factibles. Y cuya iniciativa promovio  un Banco de Proyectos de Digitalización, y varios de los proyectos factibles se encuentran actualmente en revisión. Hablamos de resultados formativos y de propuestas organizadas y un talento humano motivado a la digitalización de sus procesos.
+
+
+
+LÁMINA 19
+La meta es que cada área del banco cuente con profesionales capaces de reconocer oportunidades, formularlas con criterio y contribuir a las instancias de digitalización y gobernanza de inteligencia artificial. Los embajadores no sustituyen las áreas técnicas ni de control. Su función es aportar conocimiento del proceso y propuestas bien estructuradas. Este es el principal impacto de este Diplomado.
+
+LÁMINA 20
+Porque la tecnología abre posibilidades, pero es su gente la que transforma el Banco.
