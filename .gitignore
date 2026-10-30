@@ -1,0 +1,28 @@
+node_modules/
+
+# generated audio assets (npm run setup)
+public/voice/
+public/sfx/
+
+# source voice recordings (private rights — see inputs/README.md)
+inputs/voiceover/en/
+inputs/voiceover/es/
+
+# render output
+out/
+
+# whisper model cache
+.cache/
+
+# master video — 90 MB; distributed via Vimeo, not in-repo
+deliverables/*.mp4
+
+# session and editor state
+.DS_Store
+.claude/
+.env
+*.env.local
+
+# Python bytecode
+__pycache__/
+*.pyc

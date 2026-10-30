@@ -1,0 +1,43 @@
+{
+  "name": "diplomado-ia-motion-video",
+  "private": true,
+  "scripts": {
+    "setup": "npm run audio && npm run sfx",
+    "audio": "python3 scripts/prepare_diplomado_audio.py",
+    "sfx": "bash scripts/generate_sfx.sh",
+    "transcribe": "python3 scripts/transcribe.py",
+    "studio": "remotion studio src/index.ts",
+    "render:es": "npm run render:review",
+    "render": "npm run render:review",
+    "srt": "node scripts/export_srt.mjs",
+    "thumbnails": "node scripts/thumbnails.mjs",
+    "typecheck": "tsc --noEmit",
+    "render:review": "remotion render src/index.ts DiplomadoIA-Revision01-02 out/revision/diplomado-ia-escenas-01-02.mp4 --codec=h264 --crf=18 --audio-bitrate=320k",
+    "audio:diplomado": "python3 scripts/prepare_diplomado_audio.py",
+    "audio:original": "python3 scripts/prepare_audio.py",
+    "render:03-06": "remotion render src/index.ts DiplomadoIA-Revision03-06 out/revision-03-06/diplomado-ia-escenas-03-06.mp4 --props='{\"block\":\"03-06\"}' --codec=h264 --crf=18 --audio-bitrate=320k",
+    "studio:03-06": "remotion studio src/index.ts --props='{\"block\":\"03-06\"}'"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "@remotion/google-fonts": "4.0.538",
+    "@types/d3-geo": "^3.1.1",
+    "@types/topojson-client": "^3.1.5",
+    "d3-geo": "^3.1.1",
+    "lucide-react": "0.468.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.538",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "typescript": "5.8.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  },
+  "description": "Adaptaci\u00f3n del motor audiovisual original: revisi\u00f3n de escenas 01 y 02 del Diplomado IA.",
+  "license": "MIT"
+}
