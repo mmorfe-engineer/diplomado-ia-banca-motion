@@ -34,7 +34,7 @@ SHA-256 V1 preservado: `0f9d610c65a5663a3ae0ab380c309fcf256339997ee4f6d4c5f6c07b
 
 [QA de medios](../deliverables/v2/qa-v2.json): decodificación completa, códecs y dimensiones, 26 capítulos, 264 cues SRT monótonos, cinco voces sincronizadas, ausencia de negros inesperados y preservación V1. La inspección interna fue por fotogramas; la aprobación definitiva de dirección se registra separada en [approval.json](../deliverables/v2/approval.json).
 
-[Validación de cierre](../deliverables/v2/closure-validation.json): TypeScript/imports, dependencias, Mermaid, enlaces e imágenes, manifiestos, auditoría del contenido y prueba desde copia limpia. El estado publicado se completa tras comprobar PR, release y README en GitHub.
+[Validación de cierre](../deliverables/v2/closure-validation.json): TypeScript/imports, dependencias, Mermaid, enlaces e imágenes, manifiestos, auditoría del contenido y prueba desde copia limpia. El estado publicado se completa tras comprobar PR, release y README en GitHub. El token carece de scope workflow: no se instala CI alojada; los checks locales comprobados se conservan y no se presentan como una ejecución GitHub Actions.
 
 README bilingüe, arquitectura, secuencia de 26 escenas, sistema visual, sincronización, render, modificación, reproducción, QA, estado, procedencia, release, changelog y créditos actualizados. Se mantiene Simulador de Impacto Estratégico. Los cinco casos son propuestas demostrativas y no implementaciones bancarias productivas; los datos y ubicaciones son ilustrativos.
 

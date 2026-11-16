@@ -25,7 +25,7 @@ python3 scripts/qa_v2.py
 python3 scripts/close_v2_custody.py
 ```
 
-QA de medios requiere los privados del autor; no se ejecuta en CI público. El workflow público valida instalación, TypeScript y documentación, sin generar nuevos renders. El cierre verifica el MP4 aprobado existente y no vuelve a codificarlo.
+QA de medios requiere los privados del autor; no se ejecuta en CI público. Esta publicación registra esas validaciones locales sin instalar un workflow activo: el token disponible no tiene scope workflow. No se afirma ejecución CI alojada. La propuesta de workflow quedó en custodia local. El cierre verifica el MP4 aprobado existente y no vuelve a codificarlo.
 
 Typecheck verifica tipos e imports, no demuestra por sí solo corrección audiovisual. Correlaciones muestreadas no equivalen a alineación fonética certificada. La publicación de código/capturas no concede redistribución de másteres o voces. El estado CI real y el commit final se registran en el acta; los badges no afirman cobertura ni checks inexistentes.
 

@@ -43,5 +43,11 @@
     "knownSecretPatternFindings": 0,
     "newCommitsAudited": 2,
     "scope": "Publication files and new text objects, not a forensic guarantee"
-  }
+  },
+  "hostedCI": {
+    "status": "NOT_CONFIGURED",
+    "reason": "GitHub OAuth token lacks workflow scope; optional workflow withdrawn from branch tip, copy retained locally",
+    "localChecks": "PASS; no hosted CI success claimed"
+  },
+  "githubConnector": "PR creation denied to integration; using gh CLI with authenticated mmorfe-engineer account"
 }
