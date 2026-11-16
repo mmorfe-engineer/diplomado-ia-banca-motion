@@ -5,6 +5,12 @@ import { TOTAL_FRAMES } from "./timeline";
 import { REVIEW_BLOCK } from "./locales/diplomado";
 import { FPS } from "./lib";
 
+import {StrategicBlock,StrategicCase,cases} from './v2/Strategic';
+
 export const Root: React.FC = () => (
+  <>
   <Composition id={`DiplomadoIA-Revision${REVIEW_BLOCK}`} component={Video} durationInFrames={TOTAL_FRAMES} fps={FPS} width={1920} height={1080} />
+  <Composition id="DiplomadoIA-V2-Estrategico" component={StrategicBlock} durationInFrames={cases.reduce((n,d)=>n+d.frames,0)} fps={30} width={1920} height={1080}/>
+  {cases.map((d,i)=><Composition key={d.key} id={`V2-${d.key}`} component={StrategicCase} defaultProps={{index:i}} durationInFrames={d.frames} fps={30} width={1920} height={1080}/>)}
+  </>
 );

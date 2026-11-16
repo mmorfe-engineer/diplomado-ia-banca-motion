@@ -16,7 +16,12 @@
     "audio:diplomado": "python3 scripts/prepare_diplomado_audio.py",
     "audio:original": "python3 scripts/prepare_audio.py",
     "render:03-06": "remotion render src/index.ts DiplomadoIA-Revision03-06 out/revision-03-06/diplomado-ia-escenas-03-06.mp4 --props='{\"block\":\"03-06\"}' --codec=h264 --crf=18 --audio-bitrate=320k",
-    "studio:03-06": "remotion studio src/index.ts --props='{\"block\":\"03-06\"}'"
+    "studio:03-06": "remotion studio src/index.ts --props='{\"block\":\"03-06\"}'",
+    "v2:render": "python3 scripts/render_v2.py full",
+    "v2:assemble": "python3 scripts/assemble_v2.py",
+    "v2:qa": "python3 scripts/qa_v2.py",
+    "v2:artifacts": "python3 scripts/review_v2_artifacts.py",
+    "docs:check": "python3 scripts/validate_release_docs.py"
   },
   "dependencies": {
     "@remotion/cli": "4.0.538",
@@ -38,6 +43,7 @@
   "allowScripts": {
     "esbuild@0.28.1": true
   },
-  "description": "Adaptaci\u00f3n del motor audiovisual original: revisi\u00f3n de escenas 01 y 02 del Diplomado IA.",
-  "license": "MIT"
+  "description": "Motor audiovisual del Diplomado IA: piloto V1 de 21 escenas y ampliación V2 con cinco casos estratégicos.",
+  "license": "MIT",
+  "version": "2.0.0"
 }

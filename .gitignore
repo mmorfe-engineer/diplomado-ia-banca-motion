@@ -26,3 +26,10 @@ deliverables/*.mp4
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Private custody and original media: never publish through Git
+inputs/private/
+*.mp3
+*.wav
+*.mp4
+.env.*
