@@ -75,5 +75,13 @@
     "releaseId": 428546688,
     "status": "UNCHANGED_VERIFIED"
   },
-  "vimeoV2": "PENDING_URL"
+  "vimeoV2": "PENDING_URL",
+  "youtubeV2": "https://youtu.be/IHxvrOALlcc",
+  "youtubeAddendum": {
+    "url": "https://youtu.be/IHxvrOALlcc",
+    "verification": "YouTube short link and official oEmbed HTTP 200",
+    "externalLinksChecked": 27,
+    "allHTTP200": true,
+    "productUnchanged": true
+  }
 }

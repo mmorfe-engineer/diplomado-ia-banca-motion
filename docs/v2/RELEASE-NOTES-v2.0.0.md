@@ -1,3 +1,5 @@
+[**▶ VER PRODUCCIÓN V2 — YOUTUBE**](https://youtu.be/IHxvrOALlcc)
+
 ## V2.0.0 · Producto audiovisual aprobado
 
 Ampliación de la película del Diplomado en Inteligencia Artificial Aplicada a la Banca mediante cinco casos autónomos, insertados entre Isabel y el antecedente bancario:
@@ -34,4 +36,4 @@ Se conserva la cadena de render aprobada Remotion 4.0.538. npm audit identifica 
 
 © 2026 Martin Morfe · morfe.studio. Derechos reservados sobre los elementos audiovisuales originales. LICENSE histórica sin cambios (MIT sólo para código y con sus exclusiones). No se adjuntan másteres, voces ni binarios privados a esta release.
 
-V1 y su release v1.0.0-pilot se preservan. [Vimeo V1](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci) permanece intacto. **Vimeo V2 pendiente:** no se ha asignado URL.
+V1 y su release v1.0.0-pilot se preservan. [Vimeo V1](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci) permanece intacto. **Publicación audiovisual oficial V2:** [YouTube](https://youtu.be/IHxvrOALlcc). No se ha asignado URL de Vimeo V2.

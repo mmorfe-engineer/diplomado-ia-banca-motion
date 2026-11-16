@@ -25,5 +25,6 @@
   "vimeoV2": null,
   "redistribution": "No audiovisual binaries included in the public Git repository or release assets",
   "v1MasterSHA256": "0f9d610c65a5663a3ae0ab380c309fcf256339997ee4f6d4c5f6c07b1b7c9b19",
-  "baseReviewSHA256": "7e5ab7c12955be6efb273f1cf1d8ba34fd37fd36c75669e39ee00be450a511bc"
+  "baseReviewSHA256": "7e5ab7c12955be6efb273f1cf1d8ba34fd37fd36c75669e39ee00be450a511bc",
+  "youtubeV2": "https://youtu.be/IHxvrOALlcc"
 }
