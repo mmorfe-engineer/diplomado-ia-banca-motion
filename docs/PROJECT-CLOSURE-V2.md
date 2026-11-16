@@ -4,7 +4,7 @@ Dirección: Martin Morfe .°. · morfe.studio. Aprobación audiovisual definitiv
 
 ## Identificación y alcance
 
-Repositorio autorizado: https://github.com/mmorfe-engineer/diplomado-ia-banca-motion. Rama de trabajo: feature/v2-strategic-use-cases. Release definitiva prevista: v2.0.0. La cuenta verificada es mmorfe-engineer; se mantiene la visibilidad pública y LICENSE original sin cambios.
+Repositorio autorizado: https://github.com/mmorfe-engineer/diplomado-ia-banca-motion. Rama de trabajo: feature/v2-strategic-use-cases. Release definitiva publicada: v2.0.0. La cuenta verificada es mmorfe-engineer; se mantiene la visibilidad pública y LICENSE original sin cambios.
 
 V1: 21 escenas y 19 locuciones, 15.957 frames, 531,9 s. V2: 26 escenas, 24 locuciones, 20.963 frames, 20.963/30 s (11:38,767), 1920×1080/30 fps, H.264/AAC estéreo/48 kHz. Inserción de cinco casos 16A–16E entre escenas 16 y 17. No se reconstruyó V1; sus 13.632 frames de prefijo y 2.325 de sufijo son idénticos por píxel. Audio PCM original preservado; AAC final recodificado.
 
@@ -34,7 +34,7 @@ SHA-256 V1 preservado: `0f9d610c65a5663a3ae0ab380c309fcf256339997ee4f6d4c5f6c07b
 
 [QA de medios](../deliverables/v2/qa-v2.json): decodificación completa, códecs y dimensiones, 26 capítulos, 264 cues SRT monótonos, cinco voces sincronizadas, ausencia de negros inesperados y preservación V1. La inspección interna fue por fotogramas; la aprobación definitiva de dirección se registra separada en [approval.json](../deliverables/v2/approval.json).
 
-[Validación de cierre](../deliverables/v2/closure-validation.json): TypeScript/imports, dependencias, Mermaid, enlaces e imágenes, manifiestos, auditoría del contenido y prueba desde copia limpia. El estado publicado se completa tras comprobar PR, release y README en GitHub. El token carece de scope workflow: no se instala CI alojada; los checks locales comprobados se conservan y no se presentan como una ejecución GitHub Actions.
+[Validación de cierre](../deliverables/v2/closure-validation.json): TypeScript/imports, dependencias, Mermaid, enlaces e imágenes, manifiestos, auditoría del contenido y prueba desde copia limpia. PR, release y README se comprobaron directamente en GitHub. El token carece de scope workflow: no se instala CI alojada; los checks locales comprobados se conservan y no se presentan como una ejecución GitHub Actions.
 
 README bilingüe, arquitectura, secuencia de 26 escenas, sistema visual, sincronización, render, modificación, reproducción, QA, estado, procedencia, release, changelog y créditos actualizados. Se mantiene Simulador de Impacto Estratégico. Los cinco casos son propuestas demostrativas y no implementaciones bancarias productivas; los datos y ubicaciones son ilustrativos.
 
@@ -49,14 +49,26 @@ README bilingüe, arquitectura, secuencia de 26 escenas, sistema visual, sincron
 
 ## Publicación y commit definitivo
 
-Preparación local verificada; publicación aún en curso al redactar esta revisión del acta. No se declara cerrado el requisito remoto hasta comprobar el PR, la integración segura, la release, el commit y el README. El resultado comprobado se incorporará como seguimiento documental, sin mover la etiqueta publicada ni sobrescribir historia.
+**Publicación verificada el 16 de noviembre de 2026.** [PR #1](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/pull/1) integrado sin conflictos con merge commit `5df450a70f3dfe3c18c9e7107131c91d7bfd118b`. El árbol integrado coincidió exactamente con la revisión local auditada `3fa4db27c634484411c890295c5636cbcbc2958c`.
 
-Commit de implementación verificado: `f125071` (feat(video), componentes y pipeline V2).
+- **Release definitiva:** [v2.0.0](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v2.0.0), publicada, no draft y no prerelease. ID GitHub: `447691436`.
+- **Commit definitivo de la release:** `5df450a70f3dfe3c18c9e7107131c91d7bfd118b`.
+- **Etiqueta anotada V2:** objeto `061ed837f1b5c7216c1a6dc15fce45673bfe4427`, desreferenciado al commit anterior. No se vuelve a mover tras publicar.
+- **Assets privados adjuntos:** ninguno.
+- **V1:** tag anotado `1f3518cfd7c190d525cf9ae4f46ab390240f9c5a`, commit `7e902433f9bd060c755e3ddeacd56ae7e4e76427`; release ID `428546688`, publicada originalmente el 30 de octubre de 2026, sin assets y sin modificación.
+- **README en GitHub:** navegador sobre el repositorio real, HTTP 200, portada, cinco casos, aprobación, enlaces de release y las 25 imágenes/badges del README cargados. Vimeo V2 permanece explícitamente pendiente. Captura y evidencia en out/closure-v2/.
+- **Metadatos del repositorio:** descripción actualizada a V2, 26 escenas y 11:38; visibilidad pública y LICENSE conservadas.
 
-Release autorizada: https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v2.0.0.
+El cierre no instaló CI alojada: el token disponible no tiene scope workflow y el conector denegó crear PR. Se preservó localmente la propuesta de workflow, se usó gh para el PR y no se alteraron credenciales, protecciones ni permisos. Las validaciones locales reales y la prueba desde clon limpio pasaron; no se declara una ejecución GitHub Actions inexistente.
+
+El acta y recibo de publicación se incorporan mediante seguimiento documental en main después del corte de release, sin reetiquetar ni reescribir ese commit. Los campos anteriores identifican inequívocamente la versión audiovisual/código publicada.
 
 ## Recuperación
 
 Partir del commit/tag publicado; restaurar los medios autorizados desde custodia y comprobar SHA-256. Conservar las copias de referencias V1/V2. La guía [REPRODUCIBILITY.md](REPRODUCIBILITY.md) distingue capacidades públicas y privadas. Reanudar únicamente checkpoints de la revisión que corresponda. Nunca reconstruir V1 desde Vimeo ni sobrescribir releases históricas.
 
-**Estado actual del acta:** audiovisual aprobado; documentación y custodia preparadas; comprobación/publicación remota en curso.
+## Declaración final
+
+**Proyecto cerrado dentro de las condiciones de acceso autorizadas.** Producto audiovisual aprobado, máster y originales custodiados, V1 preservada, código/documentación publicados y release V2 verificada. No se realizaron nuevos renders creativos durante el cierre.
+
+Limitaciones declaradas: Vimeo V2 pendiente; medios privados indispensables para reproducción audiovisual completa; aviso residual Zod propagado a diez paquetes high (cero críticos), documentado en SECURITY.md; CI alojada no configurada por el alcance del token. Ninguna de esas condiciones se presenta como resuelta ni oculta la aprobación del audiovisual. No se autoriza redistribución de másteres o voces por publicar el repositorio.

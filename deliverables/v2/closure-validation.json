@@ -1,8 +1,17 @@
 {
-  "status": "LOCAL_VALIDATED_REMOTE_PENDING",
+  "status": "CLOSED_WITH_DECLARED_LIMITATIONS",
   "approvedMasterSHA256": "06665a81e4968434acac12cb9c319d71d1787b42fceb1b8e207076fdcf4d8be5",
   "approvalDate": "2026-11-16",
-  "publication": "PENDING_GITHUB_CHECKS",
+  "publication": {
+    "status": "PUBLISHED_VERIFIED",
+    "url": "https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v2.0.0",
+    "releaseId": 447691436,
+    "commit": "5df450a70f3dfe3c18c9e7107131c91d7bfd118b",
+    "tagObject": "061ed837f1b5c7216c1a6dc15fce45673bfe4427",
+    "pullRequest": 1,
+    "mergeState": "MERGED_WITHOUT_CONFLICTS",
+    "privateAssets": 0
+  },
   "typecheck": "PASS",
   "dependencies": "npm ls PASS; exact versions in package-lock",
   "mermaid": {
@@ -33,9 +42,11 @@
     "fullPrivateRender": "NOT_ATTEMPTED_OR_CLAIMED"
   },
   "externalLinks": {
-    "initialHTTP200": 22,
-    "removedHistorical404": "Converted to plain historical attribution; no active broken link",
-    "newReleaseURL": "Deferred until publication"
+    "status": "PASS",
+    "urls": 24,
+    "allHTTP200": true,
+    "includesV1V2ReleasesAndV1Vimeo": true,
+    "removedHistoricalUnavailableReference": "Preserved as plain text attribution, not a broken active link"
   },
   "security": {
     "status": "PASS_CANDIDATE_AND_COMMIT_SCAN",
@@ -49,5 +60,20 @@
     "reason": "GitHub OAuth token lacks workflow scope; optional workflow withdrawn from branch tip, copy retained locally",
     "localChecks": "PASS; no hosted CI success claimed"
   },
-  "githubConnector": "PR creation denied to integration; using gh CLI with authenticated mmorfe-engineer account"
+  "githubConnector": "PR creation denied to integration; using gh CLI with authenticated mmorfe-engineer account",
+  "githubREADME": {
+    "status": "PASS",
+    "httpStatus": 200,
+    "imagesAndBadgesLoaded": 25,
+    "fiveCases": true,
+    "approval": true,
+    "vimeoV2MarkedPending": true
+  },
+  "v1Preservation": {
+    "tagObject": "1f3518cfd7c190d525cf9ae4f46ab390240f9c5a",
+    "commit": "7e902433f9bd060c755e3ddeacd56ae7e4e76427",
+    "releaseId": 428546688,
+    "status": "UNCHANGED_VERIFIED"
+  },
+  "vimeoV2": "PENDING_URL"
 }

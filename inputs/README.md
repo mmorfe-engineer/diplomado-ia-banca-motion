@@ -4,4 +4,4 @@
 
 These recordings are included only so the video can be reproduced. They are **not** covered by the repository's MIT license; all rights reserved.
 
-Not included: the pitch deck (used as a visual reference) and the product source code ([bitcoinkio/nuevamente-demo-video-lab](https://github.com/bitcoinkio/nuevamente-demo-video-lab)).
+Not included: the pitch deck (used as a visual reference) and the product source code (`bitcoinkio/nuevamente-demo-video-lab` (referencia histórica; URL pública no disponible en la verificación del 16 de noviembre de 2026)).
