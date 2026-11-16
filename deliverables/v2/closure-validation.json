@@ -1,14 +1,15 @@
 {
-  "status": "IN_PROGRESS",
+  "status": "LOCAL_VALIDATED_REMOTE_PENDING",
   "approvedMasterSHA256": "06665a81e4968434acac12cb9c319d71d1787b42fceb1b8e207076fdcf4d8be5",
   "approvalDate": "2026-11-16",
-  "publication": "PENDING",
+  "publication": "PENDING_GITHUB_CHECKS",
   "typecheck": "PASS",
   "dependencies": "npm ls PASS; exact versions in package-lock",
   "mermaid": {
     "status": "PASS",
     "diagrams": 8,
-    "method": "Mermaid CLI rendering to SVG in isolated /tmp tools"
+    "cliVersion": "12.2.0",
+    "method": "Actual Mermaid CLI rendering to eight SVGs"
   },
   "mediaQA": "PASS: complete decode, all V1 pixel hashes and PCM prefix/suffix preserved",
   "originalMedia": "Five original MP3 copies preserved and verified; approved master hash unchanged",
@@ -21,5 +22,26 @@
     "underlyingAdvisory": "GHSA-mrhx-c7xc-m3w5",
     "action": "Pinned approved rendering toolchain preserved; disclosure in docs/SECURITY.md"
   },
-  "cleanClone": "PENDING"
+  "cleanClone": {
+    "status": "PASS",
+    "commit": "f11ca41937b842e0d166cec806430eb31d496903",
+    "install": "npm ci --offline --no-audit --cache /tmp/v2-npm-cache",
+    "typecheck": "PASS",
+    "docs": "38 Markdown files, 134 relative links, 22 images, 8 Mermaid blocks PASS",
+    "dependencies": "npm ls PASS",
+    "remotion": "Seven compositions loaded in clean clone with no copied voice assets",
+    "fullPrivateRender": "NOT_ATTEMPTED_OR_CLAIMED"
+  },
+  "externalLinks": {
+    "initialHTTP200": 22,
+    "removedHistorical404": "Converted to plain historical attribution; no active broken link",
+    "newReleaseURL": "Deferred until publication"
+  },
+  "security": {
+    "status": "PASS_CANDIDATE_AND_COMMIT_SCAN",
+    "privateMediaPublished": false,
+    "knownSecretPatternFindings": 0,
+    "newCommitsAudited": 2,
+    "scope": "Publication files and new text objects, not a forensic guarantee"
+  }
 }
