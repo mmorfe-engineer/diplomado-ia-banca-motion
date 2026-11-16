@@ -18,13 +18,17 @@ Martin Morfe .°. · **morfe.studio** · 2026
 [![Release v2.0.0](https://img.shields.io/badge/Release-v2.0.0-45C99A)](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v2.0.0)
 [![Derechos medios reservados](https://img.shields.io/badge/Derechos%20medios-reservados-F46A25)](LICENSE)
 
-![V2 · Torre de Control Bancario — approved master frame](docs/media/v2/hero.webp)
+[![YouTube · VER PRODUCCIÓN V2](https://img.shields.io/badge/YouTube-VER%20PRODUCCI%C3%93N%20V2-FF0000?logo=youtube&logoColor=white)](https://youtu.be/IHxvrOALlcc)
+
+[**▶ VER PRODUCCIÓN V2 EN YOUTUBE**](https://youtu.be/IHxvrOALlcc)
+
+[![V2 · Torre de Control Bancario — approved master frame](docs/media/v2/hero.webp)](https://youtu.be/IHxvrOALlcc)
 
 **Producto audiovisual V2 aprobado definitivamente el 16 de noviembre de 2026.** 26 escenas, 24 locuciones y 11:38,767. Esta release amplía la V1 aprobada con cinco casos estratégicos para la banca y conserva cada fotograma original. Las nuevas secuencias utilizan los personajes Person originales de NuevaMente, iconografía funcional Lucide y tableros React/SVG deterministas.
 
-[Release V2](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v2.0.0) · [Release V1](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v1.0.0-pilot) · [Ver V1 en Vimeo](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci) · [English](README.en.md)
+[Ver V2 en YouTube](https://youtu.be/IHxvrOALlcc) · [Release V2](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v2.0.0) · [Release V1](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v1.0.0-pilot) · [Ver V1 en Vimeo](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci) · [English](README.en.md)
 
-**Vimeo V2: publicación pendiente.** Todavía no existe una URL definitiva. Los másteres MP4 y las voces privadas no se incluyen en Git ni como assets de la release. Las rutas locales y los registros de integridad figuran en el [acta de cierre](docs/PROJECT-CLOSURE-V2.md).
+**Publicación audiovisual oficial V2:** [Ver el máster aprobado en YouTube](https://youtu.be/IHxvrOALlcc). Los másteres MP4 y las voces privadas no se incluyen en Git ni como assets de la release. Las rutas locales y los registros de integridad figuran en el [acta de cierre](docs/PROJECT-CLOSURE-V2.md).
 
 ## Evolución V1 → V2
 
@@ -38,6 +42,7 @@ Martin Morfe .°. · **morfe.studio** · 2026
 | Innovación gráfica | Person, Glass, Prism e iconos institucionales originales | Iconografía funcional, geolocalización animada, grafo de impacto, proyecciones y convergencia de cinco áreas |
 | Evolución técnica | Cinco bloques de render aprobados | Composiciones V2 independientes, checkpoints de 300 frames e inserción por copia de vídeo |
 | Aprobación | Piloto aprobado | Aprobación definitiva de dirección: 2026-11-16 |
+| Acceso audiovisual | [Vimeo V1](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci) | [YouTube V2](https://youtu.be/IHxvrOALlcc) |
 | Release | [v1.0.0-pilot](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v1.0.0-pilot) | [v2.0.0](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v2.0.0) |
 
 Ambas versiones son 1920×1080, 30 fps, H.264/AAC estéreo. V2 incorpora 5.006 fotogramas (166,866667 s). Se verificaron por píxel los 13.632 fotogramas del prefijo y los 2.325 del sufijo V1. Sus muestras de audio se conservan en el intermedio PCM; la entrega AAC se codifica nuevamente.

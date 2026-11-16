@@ -18,13 +18,17 @@ Martin Morfe .°. · **morfe.studio** · 2026
 [![Release v2.0.0](https://img.shields.io/badge/Release-v2.0.0-45C99A)](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v2.0.0)
 [![Media rights reservados](https://img.shields.io/badge/Media%20rights-reservados-F46A25)](LICENSE)
 
-![V2 · Torre de Control Bancario — approved master frame](docs/media/v2/hero.webp)
+[![YouTube · VER PRODUCCIÓN V2](https://img.shields.io/badge/YouTube-VER%20PRODUCCI%C3%93N%20V2-FF0000?logo=youtube&logoColor=white)](https://youtu.be/IHxvrOALlcc)
+
+[**▶ WATCH V2 ON YOUTUBE**](https://youtu.be/IHxvrOALlcc)
+
+[![V2 · Torre de Control Bancario — approved master frame](docs/media/v2/hero.webp)](https://youtu.be/IHxvrOALlcc)
 
 **V2 audiovisual product approved on 16 November 2026.** 26 scenes, 24 voice recordings and 11:38.767. This release extends the approved V1 film with five strategic banking cases while preserving every original video frame. The five new demonstrations use original NuevaMente Person components, functional Lucide icons and deterministic React/SVG dashboards.
 
-[V2 release](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v2.0.0) · [V1 release](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v1.0.0-pilot) · [Watch V1 on Vimeo](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci) · [Español](README.md)
+[Watch V2 on YouTube](https://youtu.be/IHxvrOALlcc) · [V2 release](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v2.0.0) · [V1 release](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v1.0.0-pilot) · [Watch V1 on Vimeo](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci) · [Español](README.md)
 
-**V2 on Vimeo: pending.** No V2 viewing URL has been assigned. Private MP4 masters and voice recordings are not included in Git or release assets. Local delivery locations and integrity records are documented in [the closure record](docs/PROJECT-CLOSURE-V2.md).
+**Official V2 audiovisual publication:** [Watch the approved master on YouTube](https://youtu.be/IHxvrOALlcc). Private MP4 masters and voice recordings are not included in Git or release assets. Local delivery locations and integrity records are documented in [the closure record](docs/PROJECT-CLOSURE-V2.md).
 
 ## V1 → V2
 
@@ -38,6 +42,7 @@ Martin Morfe .°. · **morfe.studio** · 2026
 | Graphics | Original Person, Glass, Prism and institutional SVG | Semantic icons, animated geolocation, impact graph, financial projections and five-area convergence |
 | Technical evolution | Five approved render blocks | Independent V2 compositions, 300-frame checkpoints, stream-copy video insertion |
 | Approval | Approved pilot | Definitive director approval, 2026-11-16 |
+| Watch the film | [Vimeo V1](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci) | [YouTube V2](https://youtu.be/IHxvrOALlcc) |
 | Release | [v1.0.0-pilot](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v1.0.0-pilot) | [v2.0.0](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v2.0.0) |
 
 Both versions are 1920×1080, 30 fps, H.264/AAC stereo. V2 adds 5,006 frames (166.866667 s). Its 13,632 original prefix frames and 2,325 suffix frames were checked pixel-for-pixel against V1. Original audio samples are preserved in the PCM assembly intermediate; final AAC audio is encoded again.

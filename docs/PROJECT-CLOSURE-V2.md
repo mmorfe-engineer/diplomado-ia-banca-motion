@@ -44,7 +44,7 @@ README bilingüe, arquitectura, secuencia de 26 escenas, sistema visual, sincron
 - Se conservan voces, timestamps y SRT durante el refinamiento. Crédito carecía de TXT original; su texto se documentó desde el MP3 definitivo.
 - Se eliminaron redundancias de pantalla y se incorporaron iconografía funcional, mapa animado, grafo de impacto, movimiento local, 22 SFX y convergencia de cinco áreas. No se modificaron los componentes globales ni los tableros aprobados.
 - El código y checks documentales son públicos. Renders completos y QA de preservación requieren voces, SFX, fuentes de red/caché, Chrome/FFmpeg, pistas y máster V1 y base V2 privada. No se afirma reproducción completa pública ni encode idéntico bit a bit.
-- Vimeo V2 sigue pendiente; no se inventa una URL. [Vimeo V1](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci) permanece intacto.
+- Publicación oficial del máster V2: [YouTube](https://youtu.be/IHxvrOALlcc), incorporada mediante adenda de dirección. No existe una URL de Vimeo V2 asignada. [Vimeo V1](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci) permanece intacto.
 - Copyright y LICENSE preexistentes se conservan. Ninguna autorización nueva de redistribución de voces o másteres se deriva de publicar el código.
 
 ## Publicación y commit definitivo
@@ -56,7 +56,7 @@ README bilingüe, arquitectura, secuencia de 26 escenas, sistema visual, sincron
 - **Etiqueta anotada V2:** objeto `061ed837f1b5c7216c1a6dc15fce45673bfe4427`, desreferenciado al commit anterior. No se vuelve a mover tras publicar.
 - **Assets privados adjuntos:** ninguno.
 - **V1:** tag anotado `1f3518cfd7c190d525cf9ae4f46ab390240f9c5a`, commit `7e902433f9bd060c755e3ddeacd56ae7e4e76427`; release ID `428546688`, publicada originalmente el 30 de octubre de 2026, sin assets y sin modificación.
-- **README en GitHub:** navegador sobre el repositorio real, HTTP 200, portada, cinco casos, aprobación, enlaces de release y las 25 imágenes/badges del README cargados. Vimeo V2 permanece explícitamente pendiente. Captura y evidencia en out/closure-v2/.
+- **README en GitHub:** navegador sobre el repositorio real, HTTP 200, portada, cinco casos, aprobación, enlaces de release y las 25 imágenes/badges del README cargados. La portada identifica ahora [YouTube como publicación oficial V2](https://youtu.be/IHxvrOALlcc). Captura y evidencia en out/closure-v2/.
 - **Metadatos del repositorio:** descripción actualizada a V2, 26 escenas y 11:38; visibilidad pública y LICENSE conservadas.
 
 El cierre no instaló CI alojada: el token disponible no tiene scope workflow y el conector denegó crear PR. Se preservó localmente la propuesta de workflow, se usó gh para el PR y no se alteraron credenciales, protecciones ni permisos. Las validaciones locales reales y la prueba desde clon limpio pasaron; no se declara una ejecución GitHub Actions inexistente.
@@ -71,4 +71,8 @@ Partir del commit/tag publicado; restaurar los medios autorizados desde custodia
 
 **Proyecto cerrado dentro de las condiciones de acceso autorizadas.** Producto audiovisual aprobado, máster y originales custodiados, V1 preservada, código/documentación publicados y release V2 verificada. No se realizaron nuevos renders creativos durante el cierre.
 
-Limitaciones declaradas: Vimeo V2 pendiente; medios privados indispensables para reproducción audiovisual completa; aviso residual Zod propagado a diez paquetes high (cero críticos), documentado en SECURITY.md; CI alojada no configurada por el alcance del token. Ninguna de esas condiciones se presenta como resuelta ni oculta la aprobación del audiovisual. No se autoriza redistribución de másteres o voces por publicar el repositorio.
+Limitaciones declaradas: el acceso oficial V2 está disponible en YouTube; no se ha asignado Vimeo V2; medios privados indispensables para reproducción audiovisual completa; aviso residual Zod propagado a diez paquetes high (cero críticos), documentado en SECURITY.md; CI alojada no configurada por el alcance del token. Ninguna de esas condiciones se presenta como resuelta ni oculta la aprobación del audiovisual. No se autoriza redistribución de másteres o voces por publicar el repositorio.
+
+## Adenda · Publicación audiovisual oficial V2
+
+Enlace aprobado por dirección: [VER PRODUCCIÓN V2](https://youtu.be/IHxvrOALlcc). Incorporado a las portadas en español e inglés, con HERO original clicable, badge YouTube y acceso en la comparativa. La release v2.0.0 incorpora el enlace. Se conserva íntegro el enlace Vimeo V1 y no se cambia el máster, la aprobación ni las etiquetas de ambas versiones.
