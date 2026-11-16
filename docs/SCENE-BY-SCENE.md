@@ -1,4 +1,51 @@
-# Guía de escenas
+# Secuencia narrativa completa · V2.0.0
+
+26 escenas y 24 locuciones. El orden es 01–16 → 16A–16E → 17–21; no se renumeran los componentes V1. El detalle original se conserva más abajo. La escena 21 mantiene sus créditos sin narración.
+
+| Escena añadida | Unidad / propuesta | Voz | Frames | Duración de voz |
+|---|---|---|---:|---:|
+| 16A | Negocios · Radar de Inteligencia Comercial | v2_negocios | 1016 | 32.365729 s |
+| 16B | Crédito · Inteligencia Crediticia | v2_credito | 966 | 30.667771 s |
+| 16C | Operaciones · Torre de Control Bancario | v2_operaciones | 968 | 30.746125 s |
+| 16D | Planificación · Simulador de Impacto Estratégico | v2_planificacion | 1021 | 32.522458 s |
+| 16E | Finanzas · Radar de Inteligencia Financiera | v2_finanzas | 1035 | 32.992667 s |
+
+Cada caso conserva problema, propuesta, demostración y cierre. Los cierres se apoyan en los tableros específicos; Finanzas termina con CINCO ÁREAS MEDULARES y la convergencia hacia Banco de Proyectos. Los datos son ilustrativos y apoyan evaluación humana.
+
+| Unidad | Inicio en el máster | Frames |
+|---|---:|---:|
+| 1 | 0 | 856 |
+| 2 | 856 | 750 |
+| 3 | 1606 | 771 |
+| 4 | 2377 | 922 |
+| 5 | 3299 | 901 |
+| 6 | 4200 | 936 |
+| 7 | 5136 | 933 |
+| 8 | 6069 | 891 |
+| 9 | 6960 | 875 |
+| 10 | 7835 | 795 |
+| 11 | 8630 | 944 |
+| 12 | 9574 | 805 |
+| 13 | 10379 | 714 |
+| 14 | 11093 | 839 |
+| 15 | 11932 | 850 |
+| 16 | 12782 | 850 |
+| 16a | 13632 | 1016 |
+| 16b | 14648 | 966 |
+| 16c | 15614 | 968 |
+| 16d | 16582 | 1021 |
+| 16e | 17603 | 1035 |
+| 17 | 18638 | 493 |
+| 18 | 19131 | 516 |
+| 19 | 19647 | 795 |
+| 20 | 20442 | 221 |
+| 21 | 20663 | 300 |
+
+La timeline y los 26 capítulos proceden de [timeline-v2.json](../deliverables/v2/timeline-v2.json). Cues de producción en [STORYBOARD.md](v2/STORYBOARD.md); decisiones finales en [REFINAMIENTO.md](v2/REFINAMIENTO.md).
+
+---
+
+# Detalle histórico de las escenas V1
 
 Descripción técnica de las 21 escenas del piloto. Los valores de duración son aproximados basados en las duraciones de locución de `voices.json` más los tiempos de pre-roll y cola definidos en `diplomado.tsx`. Los cues son palabras reales verificadas en el código fuente.
 

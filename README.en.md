@@ -1,460 +1,128 @@
-# Applied Artificial Intelligence in Banking Diploma
+# Diplomado en Inteligencia Artificial Aplicada a la Banca
 
-**Programmatic audiovisual engineering · React · TypeScript · Remotion · 21 scenes**  
-Martin Morfe .°. · morfe.studio · October 2026
+**V2.0.0 · Programmatic audiovisual engineering · React · SVG · Remotion · FFmpeg**
+Martin Morfe .°. · **morfe.studio** · 2026
 
-[![React](https://img.shields.io/badge/React-19.1-149eca?logo=react)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178c6?logo=typescript)](https://www.typescriptlang.org/)
-[![Remotion](https://img.shields.io/badge/Remotion-4.0.538-0b84f3)](https://www.remotion.dev/)
-[![Video](https://img.shields.io/badge/Video-1080p%20%7C%2030%20fps-1b7)](deliverables/qa-tecnico.json)
-[![Pilot](https://img.shields.io/badge/Production-approved%20pilot-45C99A)](docs/PROJECT-STATUS.md)
+[![React 19.1.0](https://img.shields.io/badge/React-19.1.0-149eca)](package.json)
+[![TypeScript 5.8.3](https://img.shields.io/badge/TypeScript-5.8.3-3178c6)](package.json)
+[![Remotion 4.0.538](https://img.shields.io/badge/Remotion-4.0.538-0b84f3)](package.json)
+[![SVG React](https://img.shields.io/badge/SVG-React-56B3F3)](src/v2/Refinements.tsx)
+[![FFmpeg 8.0.1](https://img.shields.io/badge/FFmpeg-8.0.1-45C99A)](docs/v2/ENTORNO.txt)
+[![Video 1920×1080](https://img.shields.io/badge/Video-1920%C3%971080-56B3F3)](deliverables/v2/approval.json)
+[![FPS 30](https://img.shields.io/badge/FPS-30-56B3F3)](deliverables/v2/approval.json)
+[![Scenes 26](https://img.shields.io/badge/Scenes-26-F46A25)](docs/SCENE-BY-SCENE.md)
+[![Version v2.0.0](https://img.shields.io/badge/Version-v2.0.0-45C99A)](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v2.0.0)
+[![Approved 2026-11-16](https://img.shields.io/badge/Approved-2026--11--16-45C99A)](deliverables/v2/approval.json)
+[![Typecheck PASS](https://img.shields.io/badge/Typecheck-PASS-45C99A)](deliverables/v2/closure-validation.json)
+[![QA PASS](https://img.shields.io/badge/QA-PASS-45C99A)](deliverables/v2/qa-v2.json)
+[![Release v2.0.0](https://img.shields.io/badge/Release-v2.0.0-45C99A)](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v2.0.0)
+[![Media rights reservados](https://img.shields.io/badge/Media%20rights-reservados-F46A25)](LICENSE)
 
----
+![V2 · Torre de Control Bancario — approved master frame](docs/media/v2/hero.webp)
 
-[![Approved master frame](docs/media/hero.webp)](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci)
+**V2 audiovisual product approved on 16 November 2026.** 26 scenes, 24 voice recordings and 11:38.767. This release extends the approved V1 film with five strategic banking cases while preserving every original video frame. The five new demonstrations use original NuevaMente Person components, functional Lucide icons and deterministic React/SVG dashboards.
 
-## [▶ WATCH THE FILM — VIMEO](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci)
+[V2 release](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v2.0.0) · [V1 release](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v1.0.0-pilot) · [Watch V1 on Vimeo](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci) · [Español](README.md)
 
-> This image links to Vimeo. GitHub does not host the video player or file.
+**V2 on Vimeo: pending.** No V2 viewing URL has been assigned. Private MP4 masters and voice recordings are not included in Git or release assets. Local delivery locations and integrity records are documented in [the closure record](docs/PROJECT-CLOSURE-V2.md).
 
----
+## V1 → V2
 
-## Table of contents
-
-- [Summary](#summary)
-- [Objectives](#objectives)
-- [Scope and limitations](#scope-and-limitations)
-- [Features](#features)
-- [Technology stack](#technology-stack)
-- [Gallery](#gallery)
-- [Architecture](#architecture)
-- [Production pipeline](#production-pipeline)
-- [Scene overview](#scene-overview)
-- [Visual system](#visual-system)
-- [Audio synchronization](#audio-synchronization)
-- [Repository structure](#repository-structure)
-- [Installation](#installation)
-- [Local preview](#local-preview)
-- [Rendering](#rendering)
-- [Quality assurance](#quality-assurance)
-- [Modification guide](#modification-guide)
-- [Reproducibility](#reproducibility)
-- [Verified deliverables](#verified-deliverables)
-- [Credits](#credits)
-- [Rights and licensing](#rights-and-licensing)
-- [Author and contact](#author-and-contact)
-
----
-
-## Summary
-
-An **8 min 51 s** audiovisual production presenting the academic proposal for the *Applied Artificial Intelligence in Banking Diploma*, a 120-hour program designed for Venezuelan banking professionals.
-
-Every frame is a React function. There is no video editor: animations, typography, colors, transitions, and captions are computed mathematically in TypeScript and exported to H.264/AAC via Remotion and FFmpeg.
-
-The film is structured in **21 scenes** organized across **5 render blocks**, narrated by **19 voice recordings** synchronized word-by-word using automatic transcription data.
-
----
-
-## Objectives
-
-- Present the academic program to institutional decision-makers.
-- Document the technical architecture of the motion graphics engine for reproduction, modification, and extension.
-- Provide a reference case for programmatic audiovisual engineering in React/Remotion with voice synchronization.
-- Serve as a technical and creative portfolio of corporate audiovisual production generated from code.
-
----
-
-## Scope and limitations
-
-| Aspect | Description |
-|---|---|
-| **Work type** | Academic audiovisual production and institutional proposal |
-| **Isabel assistant** | Simulation proposal; not an operational banking application |
-| **Prior results** | 60+ professionals, 21 feasible projects; some under review |
-| **No invented ROI** | No financial returns or production implementations are claimed |
-| **Voice and master** | Not distributed in this public repository; available on Vimeo |
-| **Full render** | Requires prepared WAV files, FFmpeg, and path review |
-
----
-
-## Features
-
-- **21 React scenes** with reusable components and mathematically computed animations
-- **Word-level synchronization**: real-time captions linked to Whisper transcription timestamps
-- **Cohesive visual system**: 5-color palette, 2 typeface families, Glass panels, Prism effects
-- **Interactive SVG**: institutional iconography, vector people, particle effects
-- **19 voice recordings** + sound effects (SFX) triggered by word cues
-- **Documented production pipeline**: block rendering → FFmpeg assembly → technical QA
-- **SRT subtitles** generated from the same synchronization data
-- **Automated technical QA**: dimension, duration, codec, and bitrate verification
-
----
-
-## Technology stack
-
-| Layer | Technology | Version |
+| Verified aspect | V1 · v1.0.0-pilot | V2 · v2.0.0 |
 |---|---|---|
-| Video framework | Remotion | 4.0.538 |
-| UI | React | 19.1.0 |
-| Language | TypeScript | 5.8.3 |
-| Iconography | Lucide React | 0.468.0 |
-| Typefaces | Google Fonts (Inter, Outfit) via Remotion | — |
-| Geography (SVG) | d3-geo, topojson-client, world-atlas | ^3.1 |
-| Assembly and audio | FFmpeg / ffprobe | system |
-| Transcription | Whisper (OpenAI) | system |
-| QA | Python 3, ffprobe | system |
-| Build | npm (Node.js) | lockfile included |
+| Narrative scope | Academic proposal, Isabel, prior banking experience and credits | V1 plus five autonomous strategic cases |
+| Scenes / recordings | 21 / 19 | 26 / 24 |
+| Frames at 30 fps | 15,957 | 20,963 |
+| Exact duration | 531.900 s · 08:51.900 | 20,963/30 s · 11:38.767 |
+| Cases | Isabel and academic project formulation | Commercial intelligence, credit, operations, strategic planning and finance |
+| Graphics | Original Person, Glass, Prism and institutional SVG | Semantic icons, animated geolocation, impact graph, financial projections and five-area convergence |
+| Technical evolution | Five approved render blocks | Independent V2 compositions, 300-frame checkpoints, stream-copy video insertion |
+| Approval | Approved pilot | Definitive director approval, 2026-11-16 |
+| Release | [v1.0.0-pilot](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v1.0.0-pilot) | [v2.0.0](https://github.com/mmorfe-engineer/diplomado-ia-banca-motion/releases/tag/v2.0.0) |
 
----
+Both versions are 1920×1080, 30 fps, H.264/AAC stereo. V2 adds 5,006 frames (166.866667 s). Its 13,632 original prefix frames and 2,325 suffix frames were checked pixel-for-pixel against V1. Original audio samples are preserved in the PCM assembly intermediate; final AAC audio is encoded again.
 
-## Gallery
+## Approved-master gallery
 
-Real frames extracted from the approved master.
+All V2 images below come directly from the SHA-256-verified approved master, not intermediate renders. [Frame provenance](docs/media/v2/frames.json).
 
-| Opening | Isabel | Principles | Alliance |
-|:---:|:---:|:---:|:---:|
-| ![Scene 01 — Opening](docs/media/scene-01.webp) | ![Scene 02 — Isabel](docs/media/scene-02.webp) | ![Scene 03 — Learning principles](docs/media/scene-03.webp) | ![Scene 04 — Institutional alliance](docs/media/scene-04.webp) |
-| **Functional routes** | **120 hours** | **20/20/60 evaluation** | **Conversational assistant** |
-| ![Scene 07 — Three actors](docs/media/scene-07.webp) | ![Scene 08 — Base modules](docs/media/scene-08.webp) | ![Scene 11 — 120 academic hours](docs/media/scene-11.webp) | ![Scene 14 — Isabel simulation](docs/media/scene-14.webp) |
-| **Prior experience** | **Projects under review** | **Narrative closing** | **Credits** |
-| ![Scene 17 — 60+ professionals, 21 projects](docs/media/scene-17.webp) | ![Scene 18 — Project bank](docs/media/scene-18.webp) | ![Scene 20 — Institutional closing](docs/media/scene-20.webp) | ![Scene 21 — Credits Prism](docs/media/scene-21.webp) |
+| Radar de Inteligencia Comercial | Inteligencia Crediticia | Torre de Control Bancario |
+|---|---|---|
+| ![Negocios](docs/media/v2/negocios.webp) | ![Crédito](docs/media/v2/credito.webp) | ![Operaciones](docs/media/v2/operaciones.webp) |
+| **Simulador de Impacto Estratégico** | **Radar de Inteligencia Financiera** | **Cinco áreas → Banco de Proyectos** |
+| ![Planificación](docs/media/v2/planificacion.webp) | ![Finanzas](docs/media/v2/finanzas.webp) | ![Convergencia](docs/media/v2/convergencia.webp) |
 
----
+### Preserved V1 gallery
 
-## Architecture
+| Apertura | Isabel | Antecedente bancario | Créditos |
+|---|---|---|---|
+| [![Apertura V1](docs/media/scene-01.webp)](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci) | ![Isabel V1](docs/media/scene-14.webp) | ![Experiencia V1](docs/media/scene-17.webp) | ![Créditos V1](docs/media/scene-21.webp) |
 
-```mermaid
-flowchart TD
-  subgraph Content
-    Script[Script and voice recording]
-    Whisper[Whisper transcription]
-    JSON[words.json / voices.json]
-  end
-  subgraph Engine
-    Locale[locale.ts / diplomado.tsx]
-    Timeline[timeline.ts — scene durations]
-    Sync[sync.ts — cueAt per word]
-    Theme[theme.ts — palette and typefaces]
-  end
-  subgraph Scenes
-    S1_6[Scenes 1–6 · S1–S6.tsx]
-    B07[Block07_10.tsx · S7–S10]
-    B11[Block11_16.tsx · S11–S16]
-    B17[Block17_21.tsx · S17–S21]
-  end
-  subgraph FX
-    FX[fx/ · Background · Glass · Title · Prism · Captions · InstitutionalIcon]
-  end
-  subgraph Output
-    Root[Root.tsx · Composition]
-    Remotion[Remotion block render]
-    FFmpeg[FFmpeg assembly and normalization]
-    QA[Python QA / ffprobe]
-    Master[H.264/AAC master]
-  end
-  Script --> Whisper --> JSON --> Locale --> Timeline & Sync
-  Timeline & Sync --> S1_6 & B07 & B11 & B17
-  Theme --> FX --> S1_6 & B07 & B11 & B17
-  S1_6 & B07 & B11 & B17 --> Root --> Remotion --> FFmpeg --> QA --> Master
-```
-
----
-
-## Production pipeline
+## Architecture and surgical insertion
 
 ```mermaid
 flowchart LR
-  A[npm ci] --> B[npm run typecheck]
-  B --> C[npm run studio]
-  C --> D{Block review}
-  D -->|render:review| E[Scenes 1–2]
-  D -->|render:03-06| F[Scenes 3–6]
-  D -->|scripts/| G[Scenes 7–21]
-  E & F & G --> H[Block MP4s]
-  H --> I[scripts/assemble_diplomado_final.py]
-  I --> J[FFmpeg audio normalization]
-  J --> K[Master 1920×1080 H.264 AAC]
-  K --> L[scripts/qa_diplomado_final.py]
-  L --> M[PASS → deliverables/]
+  V1["V1 approved blocks"] --> P["Original prefix · scenes 01–16 · 13,632 frames"]
+  V1 --> S["Original suffix · scenes 17–21 · 2,325 frames"]
+  D["V2 data.json + five private WAVs"] --> R["React/SVG · Strategic + Refinements"]
+  R --> C["300-frame recoverable chunks · 5,006 frames"]
+  P --> A["FFmpeg · video stream copy + PCM audio assembly"]
+  C --> A
+  S --> A
+  A --> Q["QA · pixel hashes, subtitles, decode and approval"]
+  Q --> M["V2 · 20,963 frames · 26 scenes"]
 ```
 
----
+The core components and V1 scene files stay unchanged. V2 inserts **16A–16E after Isabel and before the banking precedent**. Scene 17/18 retains its continuous original recording. See [architecture](docs/ARCHITECTURE.md), [narrative sequence](docs/SCENE-BY-SCENE.md) and [word synchronization](docs/AUDIO-SYNCHRONIZATION.md).
 
-## Scene overview
-
-| # | On-screen label | Source |
-|---:|---|---|
-| 01 | INTELIGENCIA ARTIFICIAL APLICADA A LA BANCA | S1.tsx |
-| 02 | Isabel — human component | S2.tsx |
-| 03 | Learning principles | S3.tsx |
-| 04 | Institutional alliance | S4.tsx |
-| 05 | Training routes (dual voice v5a+v5b) | S5.tsx |
-| 06 | Academic structure | S6.tsx |
-| 07 | ALIANZA ACADÉMICA Y ORGANIZACIONAL | Block07_10.tsx |
-| 08 | BASE COMPARTIDA · MÓDULOS 1 Y 2 | Block07_10.tsx |
-| 09 | CUATRO RUTAS FUNCIONALES | Block07_10.tsx |
-| 10 | EVALUACIÓN DEL APRENDIZAJE | Block07_10.tsx |
-| 11 | PRIMER CICLO · 120 HORAS ACADÉMICAS PREVISTAS | Block11_16.tsx |
-| 12 | SEGUNDO CICLO · DE LA OPORTUNIDAD A LA PROPUESTA | Block11_16.tsx |
-| 13 | ISABEL · SEGURIDAD BANCARIA | Block11_16.tsx |
-| 14 | PROPUESTA DE ESTUDIO · ALCANCE ACADÉMICO | Block11_16.tsx |
-| 15 | SIMULACIÓN ACADÉMICA · SIN CONEXIÓN A SISTEMAS BANCARIOS | Block11_16.tsx |
-| 16 | RESULTADO EDUCATIVO · PROPUESTA PARA EVALUACIÓN | Block11_16.tsx |
-| 17 | EXPERIENCIA FORMATIVA EN VENEZUELA | Block17_21.tsx |
-| 18 | BANCO DE PROYECTOS DE DIGITALIZACIÓN | Block17_21.tsx |
-| 19 | EMBAJADORES DIGITALES · CONTRIBUCIÓN PROFESIONAL | Block17_21.tsx |
-| 20 | DIPLOMADO EN IA APLICADA A LA BANCA — CLOSING | Block17_21.tsx |
-| 21 | AUDIOVISUAL CREDITS | Block17_21.tsx |
-
-> Scenes 17 and 18 share the continuous recording `v17_18.wav`. Scene 21 is silent (credit sequence). See [SCENE-BY-SCENE.md](docs/SCENE-BY-SCENE.md) for durations and word cues.
-
----
-
-## Visual system
-
-| Token | Value | Use |
-|---|---|---|
-| `C.bg` | `#06162F` | Primary background (night) |
-| `C.blue` | `#56B3F3` | Digital element, controls, corporate blue |
-| `C.orange` | `#F46A25` | Human element, Isabel, accent orange |
-| `C.green` | `#45C99A` | Proposal element, action, green |
-| `C.yellow` | `#F7FAFF` | Title text, warm white |
-
-**Typefaces:** Inter (body, 300–800) · Outfit (headings, 400–700) — loaded from Google Fonts via `@remotion/google-fonts`.
-
-**Reusable FX components:** `Background` · `Glass` (glassmorphism panel with tint) · `Title` (with `Grad` gradient text) · `Prism` (light dispersion) · `Captions` (word-level subtitles) · `InstitutionalIcon` (Lucide icon with SVG glow) · `Person` (vector human figure) · `Doc` (animated SVG document) · `Sfx` (sound effect trigger).
-
-See [VISUAL-SYSTEM.md](docs/VISUAL-SYSTEM.md) for full detail.
-
----
-
-## Audio synchronization
-
-```
-words.json          voices.json
-[word, t_start, t_end][]   { "v1": 27.010625, ... }
-        ↓
-sync.ts cueAt(voice, word)   →  absolute time within recording
-timeline.ts scenePre(id)     →  scene start offset in the film
-        ↓
-at = scenePre("s7") + cueAt("v7", "fortalecer")
-        ↓
-prog(t, at, duration)        →  [0..1] for animation
-```
-
-Each scene computes its cues at render time. Data comes from Whisper transcription and was manually verified against the approved recording. See [AUDIO-SYNCHRONIZATION.md](docs/AUDIO-SYNCHRONIZATION.md).
-
----
-
-## Repository structure
-
-```
-diplomado-ia-banca-motion/
-├── src/
-│   ├── index.ts              # Remotion entrypoint
-│   ├── Root.tsx              # composition registry
-│   ├── Video.tsx             # main sequencer
-│   ├── timeline.ts           # scene duration calculator
-│   ├── sync.ts               # cueAt — word index to time
-│   ├── locale.ts             # locale selector
-│   ├── lib.ts                # utilities (prog, keys, useT, FPS)
-│   ├── theme.ts              # color palette C and typefaces
-│   ├── locales/
-│   │   ├── diplomado.tsx     # pilot locale (blocks 01–21)
-│   │   ├── diplomado/
-│   │   │   ├── words.json    # word timestamps (Whisper)
-│   │   │   └── voices.json   # recording durations (ffprobe)
-│   │   └── es/, en/          # reference locales
-│   ├── scenes/
-│   │   ├── S1.tsx – S8.tsx   # individual scenes (1–8)
-│   │   └── diplomado/
-│   │       ├── Block07_10.tsx   # scenes 7–10
-│   │       ├── Block11_16.tsx   # scenes 11–16
-│   │       └── Block17_21.tsx   # scenes 17–21
-│   ├── fx/
-│   │   ├── index.tsx         # Background, Glass, Title, Prism, Grad, Sfx, Doc, Person
-│   │   ├── Captions.tsx      # word-level caption component
-│   │   ├── InstitutionalIcon.tsx  # institutional iconography
-│   │   └── team.tsx          # people composition
-│   └── ui/App.tsx            # auxiliary UI
-├── public/
-│   ├── voice/diplomado/      # v1–v20 + v17_18.wav  [.gitignore]
-│   └── sfx/                  # sound effect WAV files [.gitignore]
-├── scripts/                  # render, assembly, QA, transcription
-├── docs/
-│   ├── media/                # WebP gallery frames
-│   ├── editorial/            # script versions and approvals
-│   └── *.md                  # technical documentation
-├── deliverables/
-│   ├── diplomado-ia-01-21-final.mp4  [.gitignore — 90 MB]
-│   ├── diplomado-ia-01-21.srt        # verified subtitles
-│   ├── MANIFEST.json                 # SHA-256 hashes
-│   └── qa-*.json                     # QA reports
-├── README.md                 # Spanish README
-├── README.en.md              # this file
-├── package.json
-├── package-lock.json
-└── tsconfig.json
-```
-
----
-
-## Installation
+## Reproduce and modify
 
 ```bash
-# Clone
 git clone https://github.com/mmorfe-engineer/diplomado-ia-banca-motion.git
 cd diplomado-ia-banca-motion
-
-# Install dependencies (use the lockfile for reproducibility)
 npm ci
-```
-
-**System requirements:**
-
-| Tool | Use |
-|---|---|
-| Node.js ≥ 18 | npm ci, Remotion |
-| FFmpeg + ffprobe | render, assembly, QA |
-| Python 3 | QA and assembly scripts |
-| OpenAI Whisper | only for re-transcription (optional) |
-
----
-
-## Local preview
-
-```bash
-# Type checking
 npm run typecheck
-
-# Open Remotion Studio (browser)
+npm run docs:check
 npm run studio
 ```
 
-The studio opens at `http://localhost:3000`. The default composition shows scenes 1–2 (`DiplomadoIA-Revision01-02`). For other scenes, pass `--props='{"block":"03-06"}'` or use the corresponding scripts.
-
-> **Note:** the studio requires WAV files in `public/voice/diplomado/` and `public/sfx/`. Without them, audio will not play but animations can be previewed.
-
----
-
-## Rendering
-
-The `npm run render` commands produce **block reviews**, not the complete film. Full pilot rendering requires:
-
-1. Prepared WAV files in `public/voice/` and `public/sfx/`
-2. FFmpeg installed on the system
-3. Running blocks sequentially with scripts in `scripts/`
-4. Assembly with `scripts/assemble_diplomado_final.py`
+Studio registers `V2-negocios`, `V2-credito`, `V2-operaciones`, `V2-planificacion`, `V2-finanzas` and `DiplomadoIA-V2-Estrategico`, alongside the original V1 review block.
 
 ```bash
-# Quick preview of scenes 1–2
-npm run render:review
+# V1: select the original block (other choices: 03-06, 07-10, 11-16)
+npm run studio -- --props='{"block":"17-21"}'
 
-# Block 03–06 review
-npm run render:03-06
+# Authorized private media required for full audiovisual output
+npm run v2:render
+npm run v2:assemble
+npm run v2:qa
 ```
 
-See [BUILD-AND-RENDER.md](docs/BUILD-AND-RENDER.md) for the complete pilot render process.
+**Publicly reproducible:** dependency installation, typecheck, documentation checks and code inspection. Private narration/SFX, approved V1 video tracks and PCM, original fonts/network access and local browser/FFmpeg configuration are necessary for production. An authorized source tree is not a guarantee of a bit-identical re-render. [Exact commands and boundaries](docs/REPRODUCIBILITY.md) · [Build/render](docs/BUILD-AND-RENDER.md) · [Modification guide](docs/MODIFICATION-GUIDE.md).
 
----
+## Verification and custody
 
-## Quality assurance
-
-```bash
-# TypeScript verification
-npm run typecheck
-
-# Technical QA of master (ffprobe)
-python3 scripts/qa_diplomado_final.py
-
-# Institutional character audit
-node scripts/audit_institutional.mjs
-```
-
-QA reports are in `deliverables/qa-tecnico.json`, `deliverables/qa-visual.json`, and `deliverables/qa-final.json`. The master has technical QA PASS; visual review was by sampling, not continuous human viewing. See [QA-AND-VALIDATION.md](docs/QA-AND-VALIDATION.md).
-
----
-
-## Modification guide
-
-| Task | File |
+| Evidence | Record |
 |---|---|
-| Change scene text | `src/scenes/diplomado/Block*.tsx` or `src/scenes/S*.tsx` |
-| Change colors | `src/theme.ts` |
-| Change typefaces | `src/theme.ts` + `@remotion/google-fonts` |
-| Update word cues | `src/locales/diplomado/words.json` |
-| Change recording duration | `src/locales/diplomado/voices.json` |
-| Add a scene | `src/locales/diplomado.tsx` + new component |
-| Change scene timing | `src/locales/diplomado.tsx` (pre/tail) |
+| Definitive approval and exact metrics | [approval.json](deliverables/v2/approval.json) |
+| Technical QA and V1 pixel preservation | [qa-v2.json](deliverables/v2/qa-v2.json) |
+| Publication manifests | [MANIFEST.json](deliverables/v2/MANIFEST.json) |
+| Final Spanish subtitles | [diplomado-ia-v2.srt](deliverables/v2/diplomado-ia-v2.srt) |
+| Local and clean-environment validation | [closure-validation.json](deliverables/v2/closure-validation.json) |
+| Scope, decisions, release and recovery | [PROJECT-CLOSURE-V2.md](docs/PROJECT-CLOSURE-V2.md) |
 
-See [MODIFICATION-GUIDE.md](docs/MODIFICATION-GUIDE.md) for step-by-step instructions.
+V2 SHA-256: `06665a81e4968434acac12cb9c319d71d1787b42fceb1b8e207076fdcf4d8be5`
+V1 SHA-256: `0f9d610c65a5663a3ae0ab380c309fcf256339997ee4f6d4c5f6c07b1b7c9b19`
 
----
+Automated QA includes full decoding and original-frame comparison; internal image QA used actual-frame sampling. Definitive audiovisual approval was provided separately by the director. Typecheck is not a replacement for runtime/media QA. [Methods and limitations](docs/QA-AND-VALIDATION.md).
 
-## Reproducibility
+## Scope and rights
 
-Source code, synchronization data, and configuration are reproducible. Resources **not in this repository**:
+The five cases are conceptual demonstrations and project proposals, **not deployed banking solutions**. Figures, positions and map markers are illustrative and do not report actual bank results. Outputs support human evaluation. [Asset provenance](docs/ASSET-PROVENANCE.md).
 
-| Resource | Reason | How to obtain |
-|---|---|---|
-| `public/voice/diplomado/*.wav` | Original recordings (private rights) | Contact the author |
-| `public/sfx/*.wav` | Sound effects (generated locally) | `npm run sfx` |
-| `deliverables/*.mp4` | Approved master (90 MB) — see Vimeo | [Vimeo](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci) |
+© 2026 Martin Morfe · morfe.studio. All rights reserved over original audiovisual elements. The existing [LICENSE](LICENSE) remains unchanged: MIT applies only to source code; voice, names, logos and private media retain their existing rights. No new open license is granted for audiovisual assets.
 
-See [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) for the complete procedure.
+**Dirección Creativa y Realización Audiovisual**
+Martin Morfe .°. · morfe.studio · [eskol@protonmail.com](mailto:eskol@protonmail.com)
 
----
-
-## Verified deliverables
-
-| File | Description |
-|---|---|
-| `deliverables/diplomado-ia-01-21.srt` | Spanish subtitles, verified |
-| `deliverables/MANIFEST.json` | SHA-256 hashes of master and deliverables |
-| `deliverables/qa-tecnico.json` | ffprobe report: dimensions, fps, codecs, bitrate |
-| `deliverables/qa-visual.json` | Visual review by frame sampling |
-| `deliverables/qa-final.json` | Consolidated QA summary |
-
-The master `diplomado-ia-01-21-final.mp4` is not in the repository (rights and size: 90 MB). Available on Vimeo.
-
----
-
-## Credits
-
-```
-AUDIOVISUAL CREDIT
-Creative Direction and Audiovisual Production
-Martin Morfe .°. · morfe.studio
-eskol@protonmail.com
-October 2026
-```
-
-Academic program: Applied Artificial Intelligence in Banking Diploma.  
-Academic and institutional collaboration: PSICOSERVICIOS · Escuela Nacional de Administración y Hacienda Pública IUT.
-
-See [CREDITS.md](docs/CREDITS.md) and [THIRD_PARTY_NOTICES.md](docs/THIRD_PARTY_NOTICES.md).
-
----
-
-## Rights and licensing
-
-© 2026 Martin Morfe · morfe.studio. All rights reserved for original elements.
-
-- **Source code**: the original React/TypeScript components are the author's property.
-- **Voice recordings**: private rights; not distributed in this repository.
-- **Master MP4**: not distributed under an open license; available on Vimeo for viewing.
-- **Third-party dependencies**: retain their own licenses (MIT, ISC, Apache 2.0 as applicable).
-- **Typefaces**: Inter and Outfit under OFL 1.1; loaded at render time from Google Fonts.
-
-Public redistribution of individual resources requires specific rights verification. See [ASSET-PROVENANCE.md](docs/ASSET-PROVENANCE.md) and [SECURITY.md](docs/SECURITY.md).
-
----
-
-## Author and contact
-
-**Martin Morfe .°. — morfe.studio**  
-Creative Direction and Audiovisual Production  
-[eskol@protonmail.com](mailto:eskol@protonmail.com)
-
-GitHub: [mmorfe-engineer](https://github.com/mmorfe-engineer)
+[CREDITS](docs/CREDITS.md) · [Third-party notices](docs/THIRD_PARTY_NOTICES.md) · [Release process](docs/RELEASE-PROCESS.md) · [Changelog](docs/CHANGELOG.md)

@@ -1,0 +1,577 @@
+{
+  "status": "TECHNICAL_PASS",
+  "artisticApproval": "APPROVED_BY_DIRECTOR_2026_11_16",
+  "frames": 20963,
+  "duration": 698.7666666666667,
+  "newFrames": 5006,
+  "scenes": 26,
+  "decode": "PASS",
+  "refinement": {
+    "renderRevision": "1fe359d7ba5ddfc744ca5df4e9dbaee7f3f5fcab8eddafb2d6e4b905e96d5dff",
+    "baseMasterPreserved": true,
+    "lockedVoicesTimingAndSubtitles": "UNCHANGED",
+    "editorialCleanup": "PASS",
+    "soundEvents": 22
+  },
+  "captionCues": 264,
+  "V1CaptionPreservation": "178 prefix cues unchanged; 25 suffix cues shifted by exact insertion duration; credits remain without narration/captions",
+  "newVoiceCorrelations": [
+    {
+      "voice": "negocios",
+      "checks": [
+        {
+          "sourceStart": 1,
+          "correlation": 0.9998090582363581
+        },
+        {
+          "sourceStart": 29.365729,
+          "correlation": 0.9997402103219086
+        }
+      ]
+    },
+    {
+      "voice": "credito",
+      "checks": [
+        {
+          "sourceStart": 1,
+          "correlation": 0.9978882055571792
+        },
+        {
+          "sourceStart": 27.667771,
+          "correlation": 0.9997127722731258
+        }
+      ]
+    },
+    {
+      "voice": "operaciones",
+      "checks": [
+        {
+          "sourceStart": 1,
+          "correlation": 0.999649729841248
+        },
+        {
+          "sourceStart": 27.746125,
+          "correlation": 0.9998853307876755
+        }
+      ]
+    },
+    {
+      "voice": "planificacion",
+      "checks": [
+        {
+          "sourceStart": 1,
+          "correlation": 0.9993313242527014
+        },
+        {
+          "sourceStart": 29.522458,
+          "correlation": 0.9997132311789413
+        }
+      ]
+    },
+    {
+      "voice": "finanzas",
+      "checks": [
+        {
+          "sourceStart": 1,
+          "correlation": 0.9996872205102129
+        },
+        {
+          "sourceStart": 29.992666999999997,
+          "correlation": 0.9996903537925633
+        }
+      ]
+    }
+  ],
+  "voiceCorrelationMethod": "Two one-second windows per voice; high-pass 1200 Hz reduces the independent background pad; zero-delay normalized correlation >0.98",
+  "blackDetect": {
+    "events": [],
+    "unexpected": [],
+    "classification": "Only short transition fades permitted"
+  },
+  "originalAudioPCM": "Prefix and suffix PCM sample hashes identical before AAC encoding",
+  "originalPrefixFrames": "13632/13632 identical decoded pixel hashes",
+  "originalSuffixFrames": "2325/2325 identical decoded pixel hashes",
+  "V1Sha256": "0f9d610c65a5663a3ae0ab380c309fcf256339997ee4f6d4c5f6c07b1b7c9b19",
+  "masterSha256": "06665a81e4968434acac12cb9c319d71d1787b42fceb1b8e207076fdcf4d8be5",
+  "audio": "Original decoded V1 samples preserved in PCM intermediate; final AAC encoding changes compressed audio. Director final audiovisual approval recorded on 2026-11-16.",
+  "visual": "Stable beat/contact frames inspected; director final approval recorded on 2026-11-16.",
+  "wordAlignment": "Whisper small estimates; two lexical recognition corrections in Planning; Credit source TXT absent, transcript supplied.",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt470bg",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "62889000/2096299",
+        "time_base": "1/90000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 62888940,
+        "duration": "698.766000",
+        "bit_rate": "1131237",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "20963",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc62.11.100 libx264"
+        },
+        "side_data_list": [
+          {
+            "side_data_type": "ICC Profile"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 33540768,
+        "duration": "698.766000",
+        "bit_rate": "258518",
+        "nb_frames": "32756",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      },
+      {
+        "index": 2,
+        "codec_name": "bin_data",
+        "codec_long_name": "binary data",
+        "codec_type": "data",
+        "codec_tag_string": "text",
+        "codec_tag": "0x74786574",
+        "id": "0x3",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/1000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 698767,
+        "duration": "698.767000",
+        "bit_rate": "6",
+        "nb_frames": "26",
+        "extradata_size": 63,
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "eng",
+          "handler_name": "SubtitleHandler"
+        }
+      }
+    ],
+    "chapters": [
+      {
+        "id": 0,
+        "time_base": "1/1000",
+        "start": 0,
+        "start_time": "0.000000",
+        "end": 28533,
+        "end_time": "28.533000",
+        "tags": {
+          "title": "Escena 1"
+        }
+      },
+      {
+        "id": 1,
+        "time_base": "1/1000",
+        "start": 28533,
+        "start_time": "28.533000",
+        "end": 53533,
+        "end_time": "53.533000",
+        "tags": {
+          "title": "Escena 2"
+        }
+      },
+      {
+        "id": 2,
+        "time_base": "1/1000",
+        "start": 53533,
+        "start_time": "53.533000",
+        "end": 79233,
+        "end_time": "79.233000",
+        "tags": {
+          "title": "Escena 3"
+        }
+      },
+      {
+        "id": 3,
+        "time_base": "1/1000",
+        "start": 79233,
+        "start_time": "79.233000",
+        "end": 109967,
+        "end_time": "109.967000",
+        "tags": {
+          "title": "Escena 4"
+        }
+      },
+      {
+        "id": 4,
+        "time_base": "1/1000",
+        "start": 109967,
+        "start_time": "109.967000",
+        "end": 140000,
+        "end_time": "140.000000",
+        "tags": {
+          "title": "Escena 5"
+        }
+      },
+      {
+        "id": 5,
+        "time_base": "1/1000",
+        "start": 140000,
+        "start_time": "140.000000",
+        "end": 171200,
+        "end_time": "171.200000",
+        "tags": {
+          "title": "Escena 6"
+        }
+      },
+      {
+        "id": 6,
+        "time_base": "1/1000",
+        "start": 171200,
+        "start_time": "171.200000",
+        "end": 202300,
+        "end_time": "202.300000",
+        "tags": {
+          "title": "Escena 7"
+        }
+      },
+      {
+        "id": 7,
+        "time_base": "1/1000",
+        "start": 202300,
+        "start_time": "202.300000",
+        "end": 232000,
+        "end_time": "232.000000",
+        "tags": {
+          "title": "Escena 8"
+        }
+      },
+      {
+        "id": 8,
+        "time_base": "1/1000",
+        "start": 232000,
+        "start_time": "232.000000",
+        "end": 261167,
+        "end_time": "261.167000",
+        "tags": {
+          "title": "Escena 9"
+        }
+      },
+      {
+        "id": 9,
+        "time_base": "1/1000",
+        "start": 261167,
+        "start_time": "261.167000",
+        "end": 287667,
+        "end_time": "287.667000",
+        "tags": {
+          "title": "Escena 10"
+        }
+      },
+      {
+        "id": 10,
+        "time_base": "1/1000",
+        "start": 287667,
+        "start_time": "287.667000",
+        "end": 319133,
+        "end_time": "319.133000",
+        "tags": {
+          "title": "Escena 11"
+        }
+      },
+      {
+        "id": 11,
+        "time_base": "1/1000",
+        "start": 319133,
+        "start_time": "319.133000",
+        "end": 345967,
+        "end_time": "345.967000",
+        "tags": {
+          "title": "Escena 12"
+        }
+      },
+      {
+        "id": 12,
+        "time_base": "1/1000",
+        "start": 345967,
+        "start_time": "345.967000",
+        "end": 369767,
+        "end_time": "369.767000",
+        "tags": {
+          "title": "Escena 13"
+        }
+      },
+      {
+        "id": 13,
+        "time_base": "1/1000",
+        "start": 369767,
+        "start_time": "369.767000",
+        "end": 397733,
+        "end_time": "397.733000",
+        "tags": {
+          "title": "Escena 14"
+        }
+      },
+      {
+        "id": 14,
+        "time_base": "1/1000",
+        "start": 397733,
+        "start_time": "397.733000",
+        "end": 426067,
+        "end_time": "426.067000",
+        "tags": {
+          "title": "Escena 15"
+        }
+      },
+      {
+        "id": 15,
+        "time_base": "1/1000",
+        "start": 426067,
+        "start_time": "426.067000",
+        "end": 454400,
+        "end_time": "454.400000",
+        "tags": {
+          "title": "Escena 16"
+        }
+      },
+      {
+        "id": 16,
+        "time_base": "1/1000",
+        "start": 454400,
+        "start_time": "454.400000",
+        "end": 488267,
+        "end_time": "488.267000",
+        "tags": {
+          "title": "Escena 16a"
+        }
+      },
+      {
+        "id": 17,
+        "time_base": "1/1000",
+        "start": 488267,
+        "start_time": "488.267000",
+        "end": 520467,
+        "end_time": "520.467000",
+        "tags": {
+          "title": "Escena 16b"
+        }
+      },
+      {
+        "id": 18,
+        "time_base": "1/1000",
+        "start": 520467,
+        "start_time": "520.467000",
+        "end": 552733,
+        "end_time": "552.733000",
+        "tags": {
+          "title": "Escena 16c"
+        }
+      },
+      {
+        "id": 19,
+        "time_base": "1/1000",
+        "start": 552733,
+        "start_time": "552.733000",
+        "end": 586767,
+        "end_time": "586.767000",
+        "tags": {
+          "title": "Escena 16d"
+        }
+      },
+      {
+        "id": 20,
+        "time_base": "1/1000",
+        "start": 586767,
+        "start_time": "586.767000",
+        "end": 621267,
+        "end_time": "621.267000",
+        "tags": {
+          "title": "Escena 16e"
+        }
+      },
+      {
+        "id": 21,
+        "time_base": "1/1000",
+        "start": 621267,
+        "start_time": "621.267000",
+        "end": 637700,
+        "end_time": "637.700000",
+        "tags": {
+          "title": "Escena 17"
+        }
+      },
+      {
+        "id": 22,
+        "time_base": "1/1000",
+        "start": 637700,
+        "start_time": "637.700000",
+        "end": 654900,
+        "end_time": "654.900000",
+        "tags": {
+          "title": "Escena 18"
+        }
+      },
+      {
+        "id": 23,
+        "time_base": "1/1000",
+        "start": 654900,
+        "start_time": "654.900000",
+        "end": 681400,
+        "end_time": "681.400000",
+        "tags": {
+          "title": "Escena 19"
+        }
+      },
+      {
+        "id": 24,
+        "time_base": "1/1000",
+        "start": 681400,
+        "start_time": "681.400000",
+        "end": 688767,
+        "end_time": "688.767000",
+        "tags": {
+          "title": "Escena 20"
+        }
+      },
+      {
+        "id": 25,
+        "time_base": "1/1000",
+        "start": 688767,
+        "start_time": "688.767000",
+        "end": 698767,
+        "end_time": "698.767000",
+        "tags": {
+          "title": "Escena 21"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/home/bitcoinpapa/projects/diplomado_ia/diplomado-ia-banca-motion-v2/out/v2/diplomado-ia-v2-final.mp4",
+      "nb_streams": 3,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "698.767000",
+      "size": "122159559",
+      "bit_rate": "1398572",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "title": "Diplomado en Inteligencia Artificial Aplicada a la Banca · V2",
+        "encoder": "Lavf62.3.100"
+      }
+    }
+  },
+  "approvalRecord": "approval.json"
+}

@@ -187,3 +187,14 @@ Subtítulos por palabra generados a partir de `words.json`. Aparecen sincronizad
 | `C.emerald` | `#45C99A` | Alias de green |
 | `C.mente1`, `C.mente2` | `#56B3F3` | Alias de blue (herencia del motor NuevaMente) |
 | `RAINBOW_CONIC` | conic-gradient | Gradiente cónico para bordes iridiscentes |
+
+
+## Extensión V2 aprobada
+
+Se mantiene el sistema original: fondo #06162F, azul #56B3F3, naranja #F46A25, verde #45C99A y títulos #F7FAFF; Inter/Outfit. `Refinements.tsx` sólo incorpora composición local, iconografía por función, mapa de geolocalización, grafo estratégico y cierre institucional. Los tableros aprobados de barras, requisitos y escenarios se reutilizan.
+
+Los encabezados V2 identifican la unidad; desde «Cinco» se usa CINCO ÁREAS MEDULARES. Dirección eliminó las coletillas y advertencias repetidas de pantalla. El carácter demostrativo y las cifras ilustrativas siguen expresos en la documentación y deben acompañar la descripción de publicación. No se presentan como resultados bancarios obtenidos.
+
+El movimiento de Person reutiliza desplazamiento, escala, mirada, expresión y salida del lenguaje original; no cambia su diseño. Instituciones y variables usan SVG/Lucide. El grafo conecta bordes mediante corredores ortogonales detrás de tarjetas opacas. Las etiquetas de las cinco áreas salen antes de la convergencia para evitar colisiones. Subtítulos, escala de indicadores, unidades y leyendas mantienen áreas de seguridad.
+
+Las imágenes publicadas de V2 se extraen exclusivamente del máster aprobado: [frames.json](media/v2/frames.json). [Decisiones finales](v2/REFINAMIENTO.md).

@@ -25,7 +25,7 @@ The goal was a video that best expresses NuevaMente's script **and** shows the p
 - **Voice-overs**: 8 recordings in Spanish, later revised (V2: 9 recordings), then 9 recordings in English. They are kept in [`inputs/voiceover`](../inputs/voiceover) with a [manifest](../inputs/voiceover/manifest.json) mapping every file to its dialogue.
 - **Pitch deck**: 24 slides used as the visual reference (not included in this repo).
 - **Style references**: dark motion-graphic reels with glowing outline icons, round "emotion" characters and centered captions.
-- **Product repository**: [bitcoinkio/nuevamente-demo-video-lab](https://github.com/bitcoinkio/nuevamente-demo-video-lab) (FastAPI + RAG backend, React + Tailwind frontend).
+- **Product repository**: `bitcoinkio/nuevamente-demo-video-lab` (historical reference; its former public URL returned 404 during the V2 closure audit on 2026-11-16) (FastAPI + RAG backend, React + Tailwind frontend).
 - **Logo**: a glass prism splitting white light into a spectrum, with the wordmark "Nueva" (navy) + "Mente" (blue).
 - **Dialogue handoffs**: Spanish V2 and English handoff documents describing the script changes (summarized below).
 

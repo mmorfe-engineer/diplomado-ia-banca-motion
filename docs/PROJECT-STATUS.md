@@ -1,59 +1,12 @@
-# Estado del proyecto
+# Estado del proyecto · V2.0.0
 
-## Estado actual: Piloto aprobado
+**Producto audiovisual aprobado definitivamente el 16 de noviembre de 2026.** No queda una fase creativa pendiente. El cierre comprende custodia, documentación, validación y publicación del repositorio; su estado remoto comprobado se consigna en [PROJECT-CLOSURE-V2.md](PROJECT-CLOSURE-V2.md).
 
-| Dimensión | Estado |
-|---|---|
-| Producción audiovisual | Aprobada internamente |
-| Máster | Entregado y publicado en Vimeo |
-| Repositorio técnico | Publicado en GitHub |
-| QA técnico | PASS — automatizado con ffprobe |
-| QA visual | PASS — revisión por muestreo |
-| Documentación técnica | Completa |
-| Primer ciclo del Diplomado | Propuesta académica — inicio estimado Q1 2027 |
+| Versión | Estado audiovisual | Vídeo |
+|---|---|---|
+| V1 · v1.0.0-pilot | Piloto aprobado, preservado | [Vimeo V1](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci) |
+| V2 · v2.0.0 | Aprobación definitiva | Vimeo V2 pendiente; máster privado custodiado |
 
----
+V2: 26 escenas, 24 locuciones, 20.963 frames a 30 fps, 698,766667 s, H.264/AAC 1080p. Cinco propuestas conceptuales; no se afirma implementación productiva bancaria. El repositorio público no contiene voces ni másteres. No se ha cambiado su visibilidad ni la licencia existente.
 
-## Datos del máster aprobado
-
-| Métrica | Valor |
-|---|---|
-| Duración | 531.9 s (8 min 51.9 s) |
-| Fotogramas totales | 15.957 |
-| Resolución | 1920 × 1080 px |
-| Frame rate | 30 fps |
-| Códec video | H.264 (libx264) |
-| Códec audio | AAC estéreo |
-| Escenas | 21 |
-| Locuciones | 19 archivos WAV |
-| Subtítulos | SRT en español |
-
----
-
-## Hoja de ruta
-
-### Entregado
-
-- [x] Producción completa de 21 escenas
-- [x] Máster H.264/AAC con audio mezclado y normalizado
-- [x] Subtítulos SRT verificados
-- [x] QA técnico y visual
-- [x] Documentación técnica del motor
-- [x] Publicación en Vimeo
-- [x] Repositorio GitHub con documentación profesional
-
-### Pendiente para el inicio del programa
-
-- [ ] Autorización institucional formal del programa académico
-- [ ] Cohorte inicial Q1 2027 (objetivo: 40+ profesionales)
-- [ ] Definición de condiciones logísticas de la fase presencial (ENAHP)
-- [ ] Plataforma Moodle configurada
-
----
-
-## Limitaciones documentadas
-
-- El repositorio excluye el máster MP4 (90 MB, derechos); disponible en Vimeo.
-- Las locuciones de voz no se redistribuyen (derechos del proveedor).
-- El render completo desde cero requiere los WAV originales.
-- El QA visual fue por muestreo, no revisión continua fotograma a fotograma.
+[Approval](../deliverables/v2/approval.json) · [QA](QA-AND-VALIDATION.md) · [Reproducción](REPRODUCIBILITY.md).

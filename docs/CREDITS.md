@@ -58,4 +58,11 @@ Ver [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) para licencias detalladas.
 Este motor audiovisual está inspirado en el lenguaje visual y técnico del proyecto NuevaMente:  
 [github.com/morfemartin/nuevamente-motion-video](https://github.com/morfemartin/nuevamente-motion-video)
 
-El código fuente de este proyecto fue escrito originalmente para el Diplomado IA Bancaria. No se copió código ni assets del repositorio NuevaMente. Ver [ASSET-PROVENANCE.md](ASSET-PROVENANCE.md) para el inventario completo.
+El motor conserva los componentes originales presentes en la V1. La V2 reutiliza ese sistema sin cambiar el diseño de sus personajes. Ver [ASSET-PROVENANCE.md](ASSET-PROVENANCE.md) para el inventario completo.
+
+
+## V2 · Noviembre de 2026
+
+Dirección Creativa y Realización Audiovisual: Martin Morfe .°. · morfe.studio. La ampliación mantiene los créditos originales de la escena 21 (octubre de 2026) porque se preserva la V1 completa. La aprobación final V2 corresponde al 16 de noviembre de 2026.
+
+Los personajes originales NuevaMente/Person y el sistema de componentes existentes se reutilizan, sin nuevos avatares ni rediseño global. El refinamiento incorpora iconografía Lucide y gráficos React/SVG locales. Se mantienen las atribuciones y exclusiones de LICENSE y THIRD_PARTY_NOTICES; no se modificó la licencia histórica ni se concede redistribución de voces o másteres.

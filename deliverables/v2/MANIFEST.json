@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "algorithm": "SHA-256",
+  "approvedMediaNotDistributed": true,
+  "files": {
+    "out/v2/diplomado-ia-v2-optimizado.mp4": "06665a81e4968434acac12cb9c319d71d1787b42fceb1b8e207076fdcf4d8be5",
+    "out/v2/base-revision-90/diplomado-ia-v2-final.mp4": "7e5ab7c12955be6efb273f1cf1d8ba34fd37fd36c75669e39ee00be450a511bc",
+    "deliverables/v2/QA-REFINAMIENTO.md": "7ac47aaf09b31cf229d4fdb04a7c63e6f28310e03b03dc959eaf4cb1dd43ab6f",
+    "deliverables/v2/approval.json": "6f3c332da376754dcc9478d8e59969aaeb35b2896723afcac55dcee6045ad41e",
+    "deliverables/v2/capitulos.ffmetadata": "d658fb08cb941e28be67b4ea0615aa5ff0d1a19ddfc120ca6f122236f5f0093f",
+    "deliverables/v2/closure-validation.json": "c0eee9ab926540fe738b6c2d8497b594bfbe794ceac84ccf4924cbf5329c2ad0",
+    "deliverables/v2/diplomado-ia-v2.srt": "a486e165205063ad8ec254413f53b29449357e183e66f7c0647d03dfaf4b4d57",
+    "deliverables/v2/qa-v2.json": "8f857093b5538c6ec289c74ffd60f28fc49cbd29a3af05f9dbd9a3045215f760",
+    "deliverables/v2/qa-visual-v2.json": "4f28c81b8454c7b1a8fe10909c84d274fef6f19f66e05510cb26d32c33a59ef4",
+    "deliverables/v2/timeline-v2.json": "f7edb588f8a4253cdd9f31ae8d8b810a7332ff169b87e7240edf267d2d418e49",
+    "docs/media/v2/cinco-areas.webp": "80308710bcb32aa336eaa3290010d9383f53f3980f17663665494a8960946b65",
+    "docs/media/v2/convergencia.webp": "df231b8fa3cb645a2160524da91018647ff13b3e5df552398f0c7db17aea7670",
+    "docs/media/v2/credito.webp": "007d9266a5f29cae6bae6decbdfb2bbe09acd1739228b112f8c6f9f4beefc217",
+    "docs/media/v2/finanzas.webp": "b46f6e9b68cc04f864dfcc8e1aed856eea0723d8406fc9c0385d527fd3180a79",
+    "docs/media/v2/frames.json": "3ccfc010ae89713ae02616b0bea904263b39e4369bedd0ae505b41d630b57dd3",
+    "docs/media/v2/hero.webp": "a37eac461fa692893cac7a8cfc0793a70956c892d47b76d9ea3051aa574ee8bb",
+    "docs/media/v2/negocios.webp": "bbeedfa2e435ab8bd205db5c16e3306155b4b29917f55919fbe97ff2f97e0480",
+    "docs/media/v2/operaciones-cierre.webp": "175622d2dc3e835f7c2f2dc194e6d7b1b12e6f4e34062a713b0cee9e6cc5162a",
+    "docs/media/v2/operaciones-mapa.webp": "1eb9af5e5f93468371e7a05e5b307f874863c6a1f7ae68deda74219fb7e3ba00",
+    "docs/media/v2/operaciones.webp": "a37eac461fa692893cac7a8cfc0793a70956c892d47b76d9ea3051aa574ee8bb",
+    "docs/media/v2/planificacion-grafo.webp": "38a7b1560d7f6bb1a4d4cf2c2e773408e6467fbd4451d023ed0071e283a47d66",
+    "docs/media/v2/planificacion.webp": "7bba1f94134919fbb3d147ed350b369d04d09157c081f4c88fa44aebdda0c425"
+  }
+}

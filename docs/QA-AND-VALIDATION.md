@@ -1,105 +1,32 @@
-# Control de calidad y validación
+# QA y aprobación definitiva
 
-## Resultados del QA del piloto aprobado
+La aprobación audiovisual V2 fue emitida por Martin Morfe el 16 de noviembre de 2026, después del refinamiento. Se registra separada de las comprobaciones automáticas: [approval.json](../deliverables/v2/approval.json). La inspección interna de imagen fue por fotogramas reales; no se hace pasar un análisis automático por visionado humano continuo.
 
-| Check | Resultado | Herramienta |
-|---|---|---|
-| TypeScript | PASS | `tsc --noEmit` |
-| Dimensiones del video | PASS — 1920×1080 | ffprobe |
-| Frame rate | PASS — 30 fps | ffprobe |
-| Duración total | PASS — 531.9 s (15.957 fotogramas) | ffprobe |
-| Códec video | PASS — H.264 | ffprobe |
-| Códec audio | PASS — AAC | ffprobe |
-| Canales de audio | PASS — 2 (estéreo) | ffprobe |
-| Fuentes de audio | PASS — 19/19 WAV presentes | `qa_diplomado_review.py` |
-| Revisión visual por muestreo | PASS | Inspección manual |
-| Auditoría institucional | PASS — iconografía correcta | `audit_institutional.mjs` |
-
-Informes completos en `deliverables/`:
-- `qa-tecnico.json` — métricas ffprobe
-- `qa-visual.json` — muestra visual con observaciones
-- `qa-final.json` — resumen consolidado
-
----
-
-## Ejecutar QA
-
-### Verificación TypeScript
+| Control V2 | Evidencia |
+|---|---|
+| 1920×1080, 30 fps, H.264/AAC, 2 canales, 48 kHz | ffprobe y approval.json |
+| 20.963 frames, 20.963/30 s, 26 capítulos | qa-v2.json y timeline-v2.json |
+| Decodificación completa | qa_v2.py |
+| 264 cues monótonos; 178 originales intactos y 25 desplazados | SRT y qa-v2.json |
+| Cinco WAV, palabras, tiempos y subtítulos sin cambios | Comparación de hashes con base privada |
+| 13.632 frames de prefijo y 2.325 de sufijo idénticos a V1 | Hashes de píxeles decodificados |
+| Audio V1 preservado por muestras en PCM | Hash de prefijo/sufijo; AAC final recodificado |
+| Cinco voces sincronizadas en AAC | Dos ventanas por voz, correlación con filtro de análisis |
+| Sin negros inesperados | blackdetect; se permiten fades cortos justificados |
+| −16,2 LUFS y aproximadamente −4,0 dBTP | Medición ebur128 |
+| Control visual y refinamientos | QA-REFINAMIENTO.md, capturas del máster y aprobación de dirección |
+| Cierre documental, seguridad y clon limpio | closure-validation.json |
 
 ```bash
 npm run typecheck
+npm ls --depth=0
+npm run docs:check
+python3 scripts/qa_v2.py
+python3 scripts/close_v2_custody.py
 ```
 
-Debe retornar sin errores. Detecta:
-- Tipos incorrectos en props de componentes
-- Referencias a propiedades inexistentes
-- Errores de importación
+QA de medios requiere los privados del autor; no se ejecuta en CI público. Esta publicación registra esas validaciones locales sin instalar un workflow activo: el token disponible no tiene scope workflow. No se afirma ejecución CI alojada. La propuesta de workflow quedó en custodia local. El cierre verifica el MP4 aprobado existente y no vuelve a codificarlo.
 
-### QA técnico del video (ffprobe)
+Typecheck verifica tipos e imports, no demuestra por sí solo corrección audiovisual. Correlaciones muestreadas no equivalen a alineación fonética certificada. La publicación de código/capturas no concede redistribución de másteres o voces. El estado CI real y el commit final se registran en el acta; los badges no afirman cobertura ni checks inexistentes.
 
-```bash
-python3 scripts/qa_diplomado_final.py
-```
-
-Verifica dimensiones, fps, códecs, bitrate y duración. Requiere un MP4 en la ruta configurada en el script.
-
-### Revisión de continuidad de audio
-
-```bash
-python3 scripts/qa_diplomado_review.py
-```
-
-Verifica que los archivos WAV de locución están presentes y son decodificables.
-
-### Auditoría de iconografía institucional
-
-```bash
-node scripts/audit_institutional.mjs
-```
-
-Verifica que los íconos institucionales mapeados en el código corresponden a la especificación de escenas aprobada.
-
----
-
-## Alcance y limitaciones del QA
-
-**Lo que el QA verifica:**
-- Integridad técnica del video exportado (sin fotogramas corruptos detectables por ffprobe)
-- Presencia de todos los archivos de audio fuente
-- Tipos TypeScript sin errores
-- Dimensiones y parámetros técnicos del máster
-
-**Lo que el QA NO verifica:**
-- Revisión humana continua de todos los 15.957 fotogramas
-- Correctitud semántica del texto en pantalla (tipografía, ortografía)
-- Sincronización exacta por escena bajo escucha crítica
-- Calidad de la experiencia de visualización completa
-
-**Declaración de QA:** el máster `diplomado-ia-01-21-final.mp4` pasó QA técnico automatizado y revisión visual por muestreo. No equivale a un visionado humano completo ni a un render limpio desde cero en este workspace.
-
----
-
-## Proceso de QA para una modificación
-
-```mermaid
-flowchart LR
-  M[Modificación] --> TC[npm run typecheck]
-  TC --> ST[npm run studio]
-  ST --> RB[Re-render del bloque]
-  RB --> QT[qa_diplomado_final.py\nsi se ensambla máster]
-  QT --> VV[Revisión visual del bloque]
-  VV --> OK{¿PASS?}
-  OK -->|Sí| DOC[Actualizar docs/QA]
-  OK -->|No| FIX[Identificar causa y corregir]
-```
-
----
-
-## Hashes SHA-256
-
-Los hashes del máster y entregables están en `deliverables/MANIFEST.json`. Para verificar la integridad del máster localmente:
-
-```bash
-sha256sum deliverables/diplomado-ia-01-21-final.mp4
-# Comparar con el valor en MANIFEST.json
-```
+Los informes V1 originales se conservan sin cambios en deliverables/; su release y Vimeo permanecen independientes. [Manifiesto V2](../deliverables/v2/MANIFEST.json) · [Acta](PROJECT-CLOSURE-V2.md).

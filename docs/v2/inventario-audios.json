@@ -1,0 +1,42 @@
+[
+  {
+    "key": "negocios",
+    "duration": 32.365729,
+    "frames": 1016,
+    "source": "ElevenLabs_2026-11-16T14_05_55_Brian Cortez - Warm, Soft and Friendly_pvc_s50_sim75_v4.mp3",
+    "sha256": "b3aab791023873599aa8d13dc3494bf9146861784c2ebbc5ec91495930e9f101",
+    "scriptSupplied": true
+  },
+  {
+    "key": "credito",
+    "duration": 30.667771,
+    "frames": 966,
+    "source": "ElevenLabs_2026-11-16T14_07_38_Brian Cortez - Warm, Soft and Friendly_pvc_s50_sim75_v4.mp3",
+    "sha256": "e203eefc9d93da2be43a936bf35f57c2178995a0a96ab8a3bc69df71ccedb29e",
+    "scriptSupplied": false
+  },
+  {
+    "key": "operaciones",
+    "duration": 30.746125,
+    "frames": 968,
+    "source": "ElevenLabs_2026-11-16T14_09_32_Brian Cortez - Warm, Soft and Friendly_pvc_s50_sim75_v4.mp3",
+    "sha256": "520ffa50e057ea3585efccb036dac76e5656ebc4f2c6b53f5b90e1071f6dbd78",
+    "scriptSupplied": true
+  },
+  {
+    "key": "planificacion",
+    "duration": 32.522458,
+    "frames": 1021,
+    "source": "ElevenLabs_2026-11-16T14_14_50_Brian Cortez - Warm, Soft and Friendly_pvc_s50_sim75_v4.mp3",
+    "sha256": "fbf6957b94092ae01894f03e4af58cb0117994df18b26afdc550bfcb1a7ac520",
+    "scriptSupplied": true
+  },
+  {
+    "key": "finanzas",
+    "duration": 32.992667,
+    "frames": 1035,
+    "source": "ElevenLabs_2026-11-16T14_17_12_Brian Cortez - Warm, Soft and Friendly_pvc_s50_sim75_v4.mp3",
+    "sha256": "c67f408cbceebbd1958674797166cff2ef1c6a0fc3708a9702e6df8fa8edf48b",
+    "scriptSupplied": true
+  }
+]

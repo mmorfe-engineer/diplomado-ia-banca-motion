@@ -1,0 +1,178 @@
+[
+  {
+    "case": 0,
+    "cue": "cartera",
+    "name": "pop",
+    "volume": 0.07,
+    "localFrame": 339,
+    "frame": 339
+  },
+  {
+    "case": 0,
+    "cue": "radar",
+    "name": "whoosh",
+    "volume": 0.07,
+    "localFrame": 448,
+    "frame": 448
+  },
+  {
+    "case": 0,
+    "cue": "priorizadas",
+    "name": "ding",
+    "volume": 0.08,
+    "localFrame": 755,
+    "frame": 755
+  },
+  {
+    "case": 1,
+    "cue": "expedientes",
+    "name": "pop",
+    "volume": 0.07,
+    "localFrame": 164,
+    "frame": 1180
+  },
+  {
+    "case": 1,
+    "cue": "documentos",
+    "name": "click",
+    "volume": 0.06,
+    "localFrame": 378,
+    "frame": 1394
+  },
+  {
+    "case": 1,
+    "cue": "estructurado",
+    "name": "ding",
+    "volume": 0.08,
+    "localFrame": 609,
+    "frame": 1625
+  },
+  {
+    "case": 2,
+    "cue": "red",
+    "name": "pop",
+    "volume": 0.07,
+    "localFrame": 193,
+    "frame": 2175
+  },
+  {
+    "case": 2,
+    "cue": "medios",
+    "name": "click",
+    "volume": 0.055,
+    "localFrame": 245,
+    "frame": 2227
+  },
+  {
+    "case": 2,
+    "cue": "rentabilidad",
+    "name": "click",
+    "volume": 0.055,
+    "localFrame": 386,
+    "frame": 2368
+  },
+  {
+    "case": 2,
+    "cue": "productividad",
+    "name": "click",
+    "volume": 0.055,
+    "localFrame": 419,
+    "frame": 2401
+  },
+  {
+    "case": 2,
+    "cue": "demanda",
+    "name": "click",
+    "volume": 0.055,
+    "localFrame": 453,
+    "frame": 2435
+  },
+  {
+    "case": 2,
+    "cue": "disponibilidad",
+    "name": "click",
+    "volume": 0.055,
+    "localFrame": 475,
+    "frame": 2457
+  },
+  {
+    "case": 2,
+    "cue": "anomalías",
+    "name": "ding",
+    "volume": 0.08,
+    "localFrame": 637,
+    "frame": 2619
+  },
+  {
+    "case": 3,
+    "cue": "simulador",
+    "name": "whoosh",
+    "volume": 0.065,
+    "localFrame": 308,
+    "frame": 3258
+  },
+  {
+    "case": 3,
+    "cue": "objetivos",
+    "name": "click",
+    "volume": 0.06,
+    "localFrame": 439,
+    "frame": 3389
+  },
+  {
+    "case": 3,
+    "cue": "estructura",
+    "name": "click",
+    "volume": 0.06,
+    "localFrame": 502,
+    "frame": 3452
+  },
+  {
+    "case": 3,
+    "cue": "procedimientos",
+    "name": "click",
+    "volume": 0.06,
+    "localFrame": 550,
+    "frame": 3500
+  },
+  {
+    "case": 3,
+    "cue": "Convertir",
+    "name": "ding",
+    "volume": 0.08,
+    "localFrame": 825,
+    "frame": 3775
+  },
+  {
+    "case": 4,
+    "cue": "predictivo",
+    "name": "whoosh",
+    "volume": 0.065,
+    "localFrame": 301,
+    "frame": 4272
+  },
+  {
+    "case": 4,
+    "cue": "escenarios",
+    "name": "pop",
+    "volume": 0.07,
+    "localFrame": 533,
+    "frame": 4504
+  },
+  {
+    "case": 4,
+    "cue": "Cinco",
+    "name": "ding",
+    "volume": 0.08,
+    "localFrame": 663,
+    "frame": 4634
+  },
+  {
+    "case": 4,
+    "cue": "convertir",
+    "name": "shimmer",
+    "volume": 0.055,
+    "localFrame": 848,
+    "frame": 4819
+  }
+]

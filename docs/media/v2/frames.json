@@ -1,0 +1,94 @@
+{
+  "masterSHA256": "06665a81e4968434acac12cb9c319d71d1787b42fceb1b8e207076fdcf4d8be5",
+  "source": "approved master, not intermediate block",
+  "images": [
+    {
+      "file": "negocios.webp",
+      "frame": 14421,
+      "seconds": 480.7,
+      "width": 1600,
+      "height": 900,
+      "sha256": "bbeedfa2e435ab8bd205db5c16e3306155b4b29917f55919fbe97ff2f97e0480"
+    },
+    {
+      "file": "credito.webp",
+      "frame": 15308,
+      "seconds": 510.26666666666665,
+      "width": 1600,
+      "height": 900,
+      "sha256": "007d9266a5f29cae6bae6decbdfb2bbe09acd1739228b112f8c6f9f4beefc217"
+    },
+    {
+      "file": "operaciones.webp",
+      "frame": 16304,
+      "seconds": 543.4666666666667,
+      "width": 1600,
+      "height": 900,
+      "sha256": "a37eac461fa692893cac7a8cfc0793a70956c892d47b76d9ea3051aa574ee8bb"
+    },
+    {
+      "file": "planificacion.webp",
+      "frame": 17452,
+      "seconds": 581.7333333333333,
+      "width": 1600,
+      "height": 900,
+      "sha256": "7bba1f94134919fbb3d147ed350b369d04d09157c081f4c88fa44aebdda0c425"
+    },
+    {
+      "file": "finanzas.webp",
+      "frame": 18197,
+      "seconds": 606.5666666666667,
+      "width": 1600,
+      "height": 900,
+      "sha256": "b46f6e9b68cc04f864dfcc8e1aed856eea0723d8406fc9c0385d527fd3180a79"
+    },
+    {
+      "file": "cinco-areas.webp",
+      "frame": 18353,
+      "seconds": 611.7666666666667,
+      "width": 1600,
+      "height": 900,
+      "sha256": "80308710bcb32aa336eaa3290010d9383f53f3980f17663665494a8960946b65"
+    },
+    {
+      "file": "convergencia.webp",
+      "frame": 18533,
+      "seconds": 617.7666666666667,
+      "width": 1600,
+      "height": 900,
+      "sha256": "df231b8fa3cb645a2160524da91018647ff13b3e5df552398f0c7db17aea7670"
+    },
+    {
+      "file": "planificacion-grafo.webp",
+      "frame": 17182,
+      "seconds": 572.7333333333333,
+      "width": 1600,
+      "height": 900,
+      "sha256": "38a7b1560d7f6bb1a4d4cf2c2e773408e6467fbd4451d023ed0071e283a47d66"
+    },
+    {
+      "file": "operaciones-mapa.webp",
+      "frame": 16064,
+      "seconds": 535.4666666666667,
+      "width": 1600,
+      "height": 900,
+      "sha256": "1eb9af5e5f93468371e7a05e5b307f874863c6a1f7ae68deda74219fb7e3ba00"
+    },
+    {
+      "file": "operaciones-cierre.webp",
+      "frame": 16484,
+      "seconds": 549.4666666666667,
+      "width": 1600,
+      "height": 900,
+      "sha256": "175622d2dc3e835f7c2f2dc194e6d7b1b12e6f4e34062a713b0cee9e6cc5162a"
+    },
+    {
+      "file": "hero.webp",
+      "frame": 16304,
+      "seconds": 543.4666666666667,
+      "width": 1600,
+      "height": 900,
+      "sha256": "a37eac461fa692893cac7a8cfc0793a70956c892d47b76d9ea3051aa574ee8bb"
+    }
+  ]
+}
