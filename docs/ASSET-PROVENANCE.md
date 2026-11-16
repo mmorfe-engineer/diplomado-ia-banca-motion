@@ -4,8 +4,8 @@
 
 | Elemento | Propietario | Licencia |
 |---|---|---|
-| Componentes React/TypeScript (`src/`) | Martin Morfe .°. | Derechos reservados |
-| Scripts de producción (`scripts/`) | Martin Morfe .°. | Derechos reservados |
+| Componentes React/TypeScript (`src/`) | Martin Morfe .°. | LICENSE existente: MIT sólo código |
+| Scripts de producción (`scripts/`) | Martin Morfe .°. | LICENSE existente: MIT sólo código |
 | Datos de sincronización (`locales/diplomado/`) | Martin Morfe .°. | Derechos reservados |
 
 ---
@@ -86,3 +86,14 @@ El programa académico del Diplomado IA Bancaria es una propuesta académica. El
 ## Referencia NuevaMente
 
 El motor de motion graphics está **inspirado** en el lenguaje visual y técnico del proyecto NuevaMente ([github.com/morfemartin/nuevamente-motion-video](https://github.com/morfemartin/nuevamente-motion-video)). El código de este repositorio fue escrito de forma independiente para el Diplomado IA Bancaria. No se copió código ni se redistribuyen assets de ese proyecto.
+
+
+## Custodia y publicación V2
+
+Cinco MP3 ElevenLabs conservados en el paquete externo autorizado y en inputs/private/v2-originals/ (ignorado). WAVs preparados a 48 kHz, 24-bit estéreo; no se cambian fraseo, tono ni velocidad. El inventario de hashes está en docs/v2/inventario-audios.json; las rutas privadas detalladas quedan fuera de Git.
+
+Las capturas de docs/media/v2/ se extrajeron del máster aprobado de SHA-256 06665a81e4968434acac12cb9c319d71d1787b42fceb1b8e207076fdcf4d8be5. [frames.json](media/v2/frames.json) identifica cada frame y hash. No se generaron imágenes sustitutas. Se conserva la galería V1.
+
+La geometría de Venezuela procede de world-atlas/topojson/d3-geo existentes. Lucide aporta iconos; Person, Glass y demás componentes mantienen su procedencia. El código fuente conserva LICENSE sin cambios, MIT con exclusiones; los elementos audiovisuales originales, voces, nombres y logotipos conservan sus derechos. © 2026 Martin Morfe · morfe.studio. No se publica ni relicencia el máster ni las voces.
+
+Todos los datos, conteos, escenarios y ubicaciones de los cinco casos son ilustrativos. No hay datos confidenciales ni una aplicación bancaria operativa. El TXT original de Crédito faltaba: su transcripción proviene del MP3 definitivo y no se presenta como archivo fuente suministrado.

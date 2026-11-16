@@ -1,27 +1,15 @@
 # Changelog
 
-## v1.0.0-pilot — Octubre 2026
+## v2.0.0 · 16 de noviembre de 2026
 
-### Producción
+- Cinco casos estratégicos después de Isabel: Radar de Inteligencia Comercial, Inteligencia Crediticia, Torre de Control Bancario, Simulador de Impacto Estratégico y Radar de Inteligencia Financiera.
+- Tableros React/SVG, iconografía funcional, Person original con movimiento local y 22 SFX por palabra.
+- Geolocalización y siete variables operativas, grafo con anclajes en bordes, proyecciones de liquidez y cinco áreas que convergen hacia Banco de Proyectos.
+- Eliminación de redundancias editoriales; carácter ilustrativo conservado en documentación y contexto de publicación.
+- Inserción de 5.006 frames sin recodificar vídeo V1; 26 escenas, 24 locuciones, 20.963 frames, 264 cues SRT y 26 capítulos.
+- Aprobación audiovisual definitiva, QA técnico, custodia de originales, README bilingüe, galería del máster, diagramas y documentación de reproducción condicionada a privados.
+- V1, sus 21 escenas/19 voces, tag, release y publicación Vimeo preservados.
 
-- Piloto audiovisual completo: 21 escenas, 8 min 51.9 s
-- Motor de motion graphics React/Remotion con sincronización por palabra
-- 19 locuciones de voz sincronizadas con Whisper
-- Sistema visual cohesivo: paleta 5 colores, glassmorphism, Prism, SVG institucional
-- Subtítulos SRT exportados desde datos de sincronización
-- QA técnico automatizado (ffprobe) y revisión visual por muestreo
+## v1.0.0-pilot · Octubre de 2026
 
-### Repositorio
-
-- Migración limpia desde workspace de producción (sin historial Git original)
-- Documentación técnica completa: 18 documentos en `docs/`
-- Galería de 13 fotogramas reales del máster en `docs/media/`
-- README bilingüe (español e inglés) con diagramas Mermaid
-- Informes de QA en `deliverables/`
-- `.gitignore` configurado para excluir audio privado, renders y el máster MP4
-
-### Notas
-
-- El máster no se distribuye en el repositorio; disponible en Vimeo.
-- Las locuciones de voz tienen derechos privados y no se incluyen.
-- Primera versión publicada en GitHub: `mmorfe-engineer/diplomado-ia-banca-motion`.
+Piloto aprobado: 21 escenas, 19 locuciones, 15.957 fotogramas, 531,9 s. Motor React/Remotion con palabras alineadas, FX originales, SRT y QA técnico/visual por muestreo. Código y documentación profesional publicados en GitHub; máster visualizado en Vimeo. Las voces y el MP4 permanecen privados.

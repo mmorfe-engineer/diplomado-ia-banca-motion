@@ -1,0 +1,10 @@
+Python 3.11.15
+
+faster-whisper==1.2.1
+ctranslate2==4.9.0
+numpy==2.4.6
+av==18.1.0
+huggingface-hub==2.4.0
+
+ffmpeg version 8.0.1-3ubuntu2 Copyright (c) 2000-2025 the FFmpeg developers
+v26.1.0

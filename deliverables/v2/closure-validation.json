@@ -1,0 +1,25 @@
+{
+  "status": "IN_PROGRESS",
+  "approvedMasterSHA256": "06665a81e4968434acac12cb9c319d71d1787b42fceb1b8e207076fdcf4d8be5",
+  "approvalDate": "2026-11-16",
+  "publication": "PENDING",
+  "typecheck": "PASS",
+  "dependencies": "npm ls PASS; exact versions in package-lock",
+  "mermaid": {
+    "status": "PASS",
+    "diagrams": 8,
+    "method": "Mermaid CLI rendering to SVG in isolated /tmp tools"
+  },
+  "mediaQA": "PASS: complete decode, all V1 pixel hashes and PCM prefix/suffix preserved",
+  "originalMedia": "Five original MP3 copies preserved and verified; approved master hash unchanged",
+  "internalLinks": "PASS: 134 relative links",
+  "images": "PASS: 22 image references; V2 images extracted from approved master",
+  "dependencyAudit": {
+    "status": "KNOWN_RESIDUAL_RISK",
+    "high": 10,
+    "critical": 0,
+    "underlyingAdvisory": "GHSA-mrhx-c7xc-m3w5",
+    "action": "Pinned approved rendering toolchain preserved; disclosure in docs/SECURITY.md"
+  },
+  "cleanClone": "PENDING"
+}

@@ -1,120 +1,37 @@
-# Reproducibilidad
+# Reproducibilidad y dependencias privadas
 
-## Lo que es reproducible
-
-| Elemento | Reproducible | Notas |
-|---|---|---|
-| Código fuente | Sí | 100% en este repositorio |
-| Datos de sincronización | Sí | `words.json`, `voices.json`, `scenes.json` |
-| Configuración de build | Sí | `package-lock.json`, `tsconfig.json` |
-| Scripts de producción | Sí | `scripts/` completo |
-| Documentación | Sí | `docs/` completo |
-| Efectos de sonido SFX | Sí | Regenerables con `npm run sfx` |
-| Locuciones de voz | **No** | Derechos privados; contactar al autor |
-| Máster MP4 | **No** | 90 MB; disponible en Vimeo para visualización |
-
----
-
-## Procedimiento de clonado y verificación
+## Repositorio público
 
 ```bash
-# 1. Clonar el repositorio
 git clone https://github.com/mmorfe-engineer/diplomado-ia-banca-motion.git
 cd diplomado-ia-banca-motion
-
-# 2. Instalar dependencias exactas del lockfile
 npm ci
-
-# 3. Verificar tipos (debe pasar sin errores)
 npm run typecheck
-
-# 4. Abrir Remotion Studio (animaciones, sin audio si no hay WAV)
+npm run docs:check
 npm run studio
 ```
 
-La verificación de tipos (`npm run typecheck`) es el indicador principal de integridad del código. Si pasa, el código es semánticamente correcto y puede render.
+El código, imports, datos de sincronización, geometrías SVG, manifiestos, SRT y documentación son públicos. Studio registra las composiciones, pero reproducción con audio y renders audiovisuales requieren medios privados; no se promete que una escena con assets ausentes se renderice correctamente. Las fuentes Inter/Outfit se cargan con @remotion/google-fonts y necesitan conectividad o caché adecuada.
 
----
+## Medios privados necesarios
 
-## Recursos que no están en el repositorio
+| Recurso | Uso | Ubicación esperada |
+|---|---|---|
+| 19 WAV V1 | Re-render de escenas V1 | public/voice/diplomado/ |
+| Cinco WAV V2 | Audio de casos | public/voice/v2/negocios.wav, credito.wav, operaciones.wav, planificacion.wav, finanzas.wav |
+| Originales ElevenLabs | Custodia y nueva preparación autorizada | Paquete externo y inputs/private/v2-originals/ (ignorado) |
+| SFX originales | Render/reproducción y mezcla | public/sfx/ y fuente V1 autorizada |
+| Pistas de vídeo V1 | Inserción sin reconstrucción | V2_V1_ROOT/out/finalizacion-01-21/pistas-video/ |
+| Máster y timeline V1 | Integridad y audio original | V2_V1_ROOT/out/finalizacion-01-21/ |
+| Base V2 al 90 % y locked-media.json | Auditoría de preservación del refinamiento | out/v2/base-revision-90/ |
+| Chrome y FFmpeg/ffprobe | Render, ensamblaje y QA | Instalación local configurada |
 
-### Locuciones de voz (`public/voice/diplomado/`)
+La base privada V2 no se incorpora a Git. `V2_PACKAGE`, `V2_V1_ROOT` y `V2_BROWSER` configuran recursos externos. Los defaults corresponden al workspace del autor; deben reemplazarse en otra máquina. No copiar ni escribir en los repositorios V1 originales.
 
-Los archivos `v1.wav` … `v20.wav` y `v17_18.wav` son grabaciones originales con derechos privados. No se distribuyen públicamente.
+## Ambas versiones
 
-Para reproducir el render completo, estos archivos deben estar disponibles. Contactar al autor: [eskol@protonmail.com](mailto:eskol@protonmail.com).
+La V1 exacta permanece en `v1.0.0-pilot`; una copia independiente puede fijarse con `git checkout v1.0.0-pilot`. La rama V2 conserva esos componentes y selecciona bloques V1 mediante props. El ensamblaje V2 reutiliza los cinco tracks V1; `assemble_v2.py` define sus conteos y exige el hash del máster original.
 
-La estructura esperada:
+[Build/render](BUILD-AND-RENDER.md) incluye comandos reales para preview, preparación, timestamps, chunks, ensamblaje y QA. [Modificación](MODIFICATION-GUIDE.md) explica dónde editar cada elemento. Una nueva locución requiere nueva revisión de texto, timestamps y cues antes de renderizar; no sustituir los JSON aprobados por tiempos estimados.
 
-```
-public/voice/diplomado/
-  v1.wav v2.wav v3.wav v4.wav v5.wav v6.wav v7.wav
-  v8.wav v9.wav v10.wav v11.wav v12.wav v13.wav
-  v14.wav v15.wav v16.wav v17_18.wav v19.wav v20.wav
-```
-
-### Efectos de sonido (`public/sfx/`)
-
-Generados localmente. Pueden regenerarse:
-
-```bash
-npm run sfx
-# Requiere: Python 3 con numpy/scipy o herramientas de síntesis del sistema
-```
-
-### Máster MP4
-
-`deliverables/diplomado-ia-01-21-final.mp4` (90 MB) no está en el repositorio.  
-Ver en Vimeo: [vimeo.com/user265304725/diplomado-ia-banca-vzla](https://vimeo.com/user265304725/diplomado-ia-banca-vzla?share=copy&fl=sv&fe=ci)
-
-Los hashes SHA-256 del máster y entregables verificados están en `deliverables/MANIFEST.json`.
-
----
-
-## Reproducción parcial sin locuciones
-
-Es posible trabajar con el motor de motion graphics sin las locuciones:
-
-- **`npm run studio`** — las animaciones son visibles; el audio estará ausente
-- **`npm run typecheck`** — verificación de integridad completa
-- **Modificaciones de escenas** — funcionales sin WAV
-- **Render de bloques** — produce video mudo; con silencio en la pista de audio
-
----
-
-## Verificación de integridad de los datos de sincronización
-
-Los datos de `words.json` fueron generados por Whisper y verificados manualmente. Para re-verificar:
-
-```bash
-# Verificar que todas las voces referenciadas en scenes.json tienen datos en words.json
-node -e "
-const w = require('./src/locales/diplomado/words.json');
-const v = require('./src/locales/diplomado/voices.json');
-Object.keys(v).filter(k => k !== 'silence').forEach(k => {
-  if (!w[k]) console.log('FALTA:', k);
-  else console.log('OK:', k, w[k].length, 'palabras');
-});
-"
-```
-
----
-
-## Integridad del repositorio fuente
-
-El repositorio fuente de producción (`motion-video-final`) se mantuvo en modo de solo lectura durante toda la migración. Los archivos de código fuente son idénticos entre ambas ubicaciones.
-
-Los hashes verificados del máster aprobado están en `deliverables/MANIFEST.json`.
-
----
-
-## Limitaciones declaradas
-
-| Limitación | Descripción |
-|---|---|
-| Render desde cero | No garantizado sin locuciones originales |
-| Revisión visual continua | El QA visual fue por muestreo de fotogramas, no visionado completo |
-| Re-render idéntico al máster | El ensamblaje FFmpeg puede producir diferencias menores de bitrate |
-| Audio propietario | Las locuciones no se redistribuyen y no están disponibles públicamente |
-
-Ver [QA-AND-VALIDATION.md](QA-AND-VALIDATION.md) y [ASSET-PROVENANCE.md](ASSET-PROVENANCE.md) para contexto adicional.
+La prueba independiente de cierre se registra en [closure-validation.json](../deliverables/v2/closure-validation.json): instalación y typecheck desde un clon limpio, validación documental y listado de composiciones sin copiar voces. El render audiovisual completo desde cero no se afirma desde el repositorio público; requiere los recursos privados enumerados. Tampoco se garantiza identidad bit a bit de un nuevo encode.

@@ -1,4 +1,25 @@
-# Guía de modificación
+# Modificación de V1 y V2
+
+La V2.0.0 está aprobada y sus medios se custodian por hash. Para una versión futura, partir de una nueva rama; preservar el máster aprobado y no sobrescribir tags ni archivos de referencia.
+
+| Cambio V2 | Archivo |
+|---|---|
+| Títulos, textos, barras, expediente, series y captions locales | src/v2/Strategic.tsx |
+| Iconos, mapa, selector, grafo y cierre transversal | src/v2/Refinements.tsx |
+| Palabras, duraciones y frames | src/v2/data.json |
+| Cues y volumen de efectos | src/v2/sfx.json |
+| Registro de composiciones | src/Root.tsx |
+| Render, ensamblaje y validación | scripts/*v2*.py |
+
+Cambiar texto visible no equivale a cambiar la locución. Si cambia el audio: conservar original, preparar una copia, medir duración con ffprobe, obtener timestamps, contrastar guion/audio y verificar cada cue. `cue()` falla si no existe la palabra requerida. Actualizar juntos captions, SRT y eventos; no fijar tiempos finales inventados.
+
+Después: typecheck → fotogramas de control → MP4 parcial → revisión → chunks afectados → ensamblaje → QA. Un cambio de cabecera en todos los casos afecta todos sus frames. Eliminar un disclaimer de V2 no autoriza cambiar el contenido V1. No modificar globalmente Person/Glass/Background/tema para resolver un problema local.
+
+Las instrucciones históricas V1 se conservan a continuación; los comandos de exportación genérica SRT es/en no son el exportador final V2. [Reproducción](REPRODUCIBILITY.md).
+
+---
+
+## Referencia V1
 
 Esta guía cubre las tareas más comunes de modificación de la producción. En todos los casos: ejecutar `npm run typecheck` después de cada cambio y verificar en `npm run studio` antes de re-renderizar.
 
